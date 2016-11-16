@@ -11,5 +11,3 @@ Applications and Features
     
     apps
     newtworkManager
-    visProg
-    remCon
