@@ -108,8 +108,8 @@ Front panel controls and connecrions
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
 
-
-1 - power button 
+Power button
+------------ 
 Momentarily pressing will turn the HAMlab ON. It normally takes 30s from the button press until the HAMlab is ready to be used. Once HAMlab is ON, momentarily pressing will cause the proper shut down of the device. Blue LED indication on the power button indicates that device is turned on.
 
 .. note::
@@ -117,7 +117,11 @@ Momentarily pressing will turn the HAMlab ON. It normally takes 30s from the but
 
 
 SDR
-2 - Microphone connector (RJ45)
+---
+
+Microphone connector (RJ45)
++++++++++++++++++++++++++++
+
 Front panel view
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
@@ -135,14 +139,15 @@ The HAMlab 80-10 10W front microphone connector can support Kenwood HM-152 elect
 or compatible types.
 
 
-3 - Phones
-
+Phones
+++++++
 
 The HAMlab 80-10 10W supports a stereo headset with headphone ¼ inch TRS phone plug.
 Mono or TS connector that grounds the “ring” portion of the connector should not be used!
 
 
-4 - CW Key / paddle jack
+CW Key / paddle jack
+++++++++++++++++++++++++
 The CW key/paddle jack is a ¼ inch TRS phone plug. 
 Tip - DOT
 Ring - DASH
@@ -255,7 +260,10 @@ The Anderson Powerpole™ connector contains 45 Amp pins to minimize voltage dro
 I - If you choose to use your own Powerpole cabling, be sure to properly size the wire and the Powerpole connector to minimize voltage drop during transmit. Excessive voltage drop can cause lower transmit power output levels. 
 
 
+
 Fuse
+++++
+
 There are two internal fuses in the HAMlab. One is protecting whole system while the other one is just for the transceiver. If you ever need to replace the internal fuse, remove the top cover and the shield of the power board.  
 
 

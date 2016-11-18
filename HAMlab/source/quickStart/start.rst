@@ -9,7 +9,8 @@ IMPORTANT NOTICE - READ BEFORE OPERATING THIS UNIT WARNING!
     Except those actions which have been described in this HAMlab, no other manipulations to the radio are allowed. The unit must only be opened and/or serviced by a qualified technician.
     These documents contain important information for safe operation, please study it!
 
-    Radio frequency energy (RF) from transmitters can interact with some electronic devices, such as cardiac pacemakers and defibrillators. Please refer to the implanted pacemaker or defibrillator manufacturer's instructions with respect to precautions to be taken in the vicinity of an amateur radio transmitter. If any interaction or interference with a pacemaker or implanted defibrillator is suspected, STOP transmitting immediately!
+    Radio frequency energy (RF) from transmitters can interact with some electronic devices, such as cardiac pacemakers and defibrillators. 
+    Please refer to the implanted pacemaker or defibrillator manufacturer's instructions with respect to precautions to be taken in the vicinity of an amateur radio transmitter. If any interaction or interference with a pacemaker or implanted defibrillator is suspected, STOP transmitting immediately!
 
 
 What is in the box and other additional requirements
@@ -203,15 +204,22 @@ Click on the SDR icon in order to put HAMlab into SDR mode. Once in this mode us
 
 
 Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
+
+
 Power SDR installation & configuration (TBD, images)
 ----------------------------------------------------
-Click here to download Power SDR installation package
-…
-Select HAMlab hardware
-Audio setup: VAC1 setup -> select USB codec 
-Click POWER to connect to HAMlab
-START USING POWER SDR SOFTWARE
 
+!!!!!!!!!!!!!!!!!!!!!TODO insert link!!!!!!!!!!!!!!!!!!!
+Click here to download Power SDR installation package
+
+Select HAMlab hardware
+
+Audio setup: VAC1 setup -> select USB codec 
+
+Click POWER to connect to HAMlab
+
+START USING POWER SDR SOFTWARE
+++++++++++++++++++++++++++++++
 
 Setting the operating frequency or changing the band
 Setting Rx attenuators and amplifiers
