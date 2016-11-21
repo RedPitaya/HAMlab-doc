@@ -1,3 +1,5 @@
+.. _laapp:
+
 Logic Analizer
 ##############
 

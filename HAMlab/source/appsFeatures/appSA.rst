@@ -1,10 +1,13 @@
+.. _saapp:
+
 Spectrum Analyzer
 #################
 
 This application will turn your HAMlab board into a 2-channel DFT Spectrum Analyzer. It is the perfect tool for educators, students, makers, hobbyists and professionals seeking affordable, highly functional test and measurement equipment. 
 
 The DFT Spectrum analyzer application enables a quick and powerful spectrum analysis using a DFT algorithm. Frequency span is form DC up to 62.5MHz where the frequency range can be arbitrarily selected. 
-You can easily measure the quality of your signals, signal harmonics, spurious and power. Instrument HAMlab applications are web-based and do not require the installation of any native software. Users can access them via a web browser using their smartphone, tablet or a PC running any popular operating system (MAC, Linux, Windows, Android, and iOS). The elements on the DFT Spectrum analyzer application are arranged logically and offer a familiar user interface.
+You can easily measure the quality of your signals, signal harmonics, spurious and power. Instrument HAMlab applications are web-based and do not require the installation of any native software. Users can access them via a web browser using their smartphone, tablet or a PC running any popular operating system (MAC, Linux, Windows, Android, and iOS). 
+The elements on the DFT Spectrum analyzer application are arranged logically and offer a familiar user interface.
 
 The graphical interface is divided into 4 main areas:
 

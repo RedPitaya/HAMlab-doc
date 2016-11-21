@@ -1,5 +1,5 @@
 
-IMPORTANT NOTICE - READ BEFORE OPERATING THIS UNIT WARNING!
+WARNING! IMPORTANT NOTICE - READ BEFORE OPERATING THIS UNIT 
 ###########################################################
 
 .. caution::
@@ -43,7 +43,7 @@ In addition to the supplied accessories, software and cables supplied with the H
 
 	* An **HF-Antenna** or dummy load with BNC or SO-239 connector
 	* powered **stereo speakers** (computer type) or stereo headphones
-	* **router** with enabled DHCP and connection to the internet
+	* **router** with enabled **DHCP** and connection to the internet
 	* good RF **ground**
 	* Items that might be already included in the kit:
 	
@@ -100,7 +100,7 @@ Turning it on and start using mesuring instruments
 --------------------------------------------------
 
 Turn on power supply, HAMlab will start automatically. Next time you can momentary press on the power button to turn it on/off.
-Make sure your computer is connected to same local area network as HAMlab
+Make sure your computer is connected to same local area network as HAMlab.
 On your computer start a WEB browser (Chrome recommended)
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
@@ -115,9 +115,17 @@ HAMlab application page should appear where measurement applications are listed
 
 Click on application to run it. 
 
+
 .. note:: 
 	
 	More details about HAMlab instruments can be found in the Applications & features section.
+	
+	Instruments applications documentation:
+
+	* :ref:`oscapp`
+	* :ref:`laapp`
+	* :ref:`saapp`
+
 
 Start using HAMlab as SDR
 #########################
@@ -200,7 +208,7 @@ HAMlab application page should appear
 Click on the SDR icon in order to put HAMlab into SDR mode. Once in this mode user can connect to HAMlab using Power SDR software.
 
 .. note::
-	Exiting this application will close the connection to Power SDR.
+	Exiting this web application will close the connection to Power SDR.
 
 
 Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
