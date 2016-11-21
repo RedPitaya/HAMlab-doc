@@ -44,3 +44,7 @@ Two options are possible for the display of the decoded data: firstly, the data 
 
 CURSORS:
 As with the Oscilloscope the Logic Analyze rApp also provides CURSORS for quick measurements. Because there are no variable amplitude readings but only discrete signal levels, the cursors are available exclusively for the X axis. When enabled, the cursors will show the relative time respectively to zero point (trigger event) and the difference between the two.
+
+.. note::
+
+	For Logic Analizer application to work you will be required to enter unlock code into our licencing system. Procedure can be access at :ref:`unlock` section.
