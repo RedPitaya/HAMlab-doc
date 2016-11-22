@@ -5,6 +5,7 @@ Welcome to the HAMlab documentation.
     :maxdepth: 5
     :numbered:
     
+    ./quickStart/warning.rst
     ./quickStart/quickStart.rst
     ./appsFeatures/appsTop.rst
     

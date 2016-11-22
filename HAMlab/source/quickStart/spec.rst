@@ -204,7 +204,8 @@ G - common ground.
 Back panel controls and connections 
 ###################################
 
-1 - ANT - TRANSCEIVER ANTENNA PORTS [1,2] 
+ANT - TRANSCEIVER ANTENNA PORTS [1,2]
+------------------------------------- 
 ANT1 is SO-239 50 ohm connector, while ANT2 is BNC 50 ohm connector. 
 
 
@@ -219,7 +220,8 @@ User can connect transmitter output to ANT1 or ANT2 by properly connecting SMA c
 	NEVER CONNECT OR DISCONNECT ANTENNAS WHILE IN TRANSMIT MODE. THIS MAY CAUSE ELECTRICAL SHOCK OR RF BURNS TO YOUR SKIN AND DAMAGE TO THE UNIT. 
 
 
-2 - AUX1
+AUX1
+----
 RX1 IN - direct feed to the first receiver pre-amp and attenuators.
 RX1 OUT - an output from the antenna feeding 
 
@@ -231,7 +233,8 @@ By default HAMlab 80-10 10W comes with loopback cable connected from RX1 IN to R
 	this input is not protected by any ESD circuitry, therefore device connected to the RX1 OUT Output is susceptible to possible damage by ESD from an EMP event if the connected device does not have adequate ESD protection circuitry. 
 
 
-3 - AUX2
+AUX2
+----
 RX2 IN - secondary 50ohm receiver input that can be used as a second panadapter in Power SDR software
 or to as feedback signal for pre-distortions (Pure Signal tool). 
 
@@ -240,7 +243,8 @@ XVTR (TX2 OUT)  - secondary transmitter can be used to drive external PA
 Max. output power is around 10 dBm @ 50ohm
 
 
-4 - DC POWER INPUT
+DC POWER INPUT
+--------------
 The HAMlab 80-10 10W  is designed to operate from a 13.8 volt nominal DC supply and required at least 3A.
 
 .. caution::
@@ -262,7 +266,7 @@ I - If you choose to use your own Powerpole cabling, be sure to properly size th
 
 
 Fuse
-++++
+----
 
 There are two internal fuses in the HAMlab. One is protecting whole system while the other one is just for the transceiver. If you ever need to replace the internal fuse, remove the top cover and the shield of the power board.  
 
@@ -274,12 +278,16 @@ There are two internal fuses in the HAMlab. One is protecting whole system while
 	FUSE CURRENT RATING SHOULD NOT BE HIGHER THAN ?? AMPS! FAILURE TO PROPERLY USE THIS SAFETY DEVICE COULD RESULT IN DAMAGE TO YOUR RADIO, POWER SUPPLY, OR CREATE A FIRE RISK. 
 
 
-5- Chassis ground
+Chassis ground
+--------------
+
 This is a thumbscrew for attaching an earth ground to the chassis of the radio. Grounding is the most important safety enhancement you can make to your shack. Always ground the HAMlab to your station RF ground using high quality wiring with the length being as short as possible.
 Braided wire is considered the best for ground applications. Your station ground should be a common point where all grounds come together. You will likely be using a PC and a DC power source so be sure to ground these devices together as well. 
 
 
-6 - AUDIO
+AUDIO
+-----
+
 Audio USB connector
 USB 2.0 Cable - A-Male to Mini-B must be used to connect HAMlab audio sound card with the PC in order to be able to use Phone, MIC and speaker connector for voice communication.
 
@@ -292,7 +300,9 @@ Speaker connector
 	Do not use a mono or TS connector that grounds the “ring” portion of the connector. 
 
 
-7 - CTRL
+CTRL
+----
+
 DB9 connector is used to control external equipment.
 PTT OUT relay is connected between pins 6 and 7. 
 
@@ -301,7 +311,9 @@ PTT OUT relay is connected between pins 6 and 7.
 	Other pins are at the moment not in use and should be left unconnected.
 
 
-8 - DATA
+DATA
+----
+
 LAN 
 This is network connection to the HAMlab. It is an auto-sensing 100 megabit or 1 gigabit Ethernet port that enables you to connect HAMlab to your local network or directly to PC.
 
