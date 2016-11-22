@@ -8,17 +8,20 @@ It enables generating and measuring electrical signals up to 50MHz. The simple a
 The application is web-based and doesn’t require installation of any native software. Users can access them via any web browser (Google Chrome is recommended) using their smartphone, tablet or a PC running any popular operating system (MAC, Linux, Windows, Android and iOS). 
 The elements on the Oscilloscope&Sig. Generator application are arranged logically and offer a familiar user interface.
 
+.. image:: Slika_02_OSC.png
+
+
 Apart from the graph there are five areas in which the surface is divided:
 
-	* Autoscale: Automatically sets up the Oscilloscope settings for the optimal display of the input signals. By pressing the button the voltage axis and time axis are set so that at least one full period of the signal will fill the screen.
-	* Channels / Trigger / Measuring Tools: This menu provides controls for inputs / outputs, Trigger, guides, and measurements.
-	* Axis control panel: 
+	 1) Autoscale: Automatically sets up the Oscilloscope settings for the optimal display of the input signals. By pressing the button the voltage axis and time axis are set so that at least one full period of the signal will fill the screen.
+	 2) Channels / Trigger / Measuring Tools: This menu provides controls for inputs / outputs, Trigger, guides, and measurements.
+	 3) Axis control panel: 
 	
 		* By pressing the horizontal **+**/**-** buttons the scaling of the X axis is changed and thus the selected time range which is displayed in the graph. 
 		* The vertical **+**/**-** buttons change the Y axis, and thus the displayed voltage range of the signal. 
 		* In addition, the setting for the time frame, trigger, zero point of the X axis and the sampling rate are displayed.
-	* Channel Setting display: Indicates the scale of the Y axis for all channels that are switched.
-
+	 4) Channel Setting display: Indicates the scale of the Y axis for all channels that are switched.
+	 5) Osciloscope application network data usage.
 
 Features
 --------
@@ -50,21 +53,45 @@ Oscilloscope & signal generator main features are listed below:
 		* frequency, 
 		* phase
 	
-**AUTOSCALE**: Automatically sets up the Oscilloscope to best display the input signal. By pressing this button, the voltage axis and the time axis are set so that at least one full period of the signal will fill the screen.
+**AUTOS CALE**: Automatically sets up the Oscilloscope to best display the input signal. By pressing this button, the voltage axis and the time axis are set so that at least one full period of the signal will fill the screen.
 
-**INPUTS**:	On the right side of the Oscilloscope&Sig. Generator application interface the IN1 and IN2 channels are listed. By a simple click on the name of a channel (not the gear) the channel gets highlighted and you can simply control all the settings of the respective channel.
+.. image:: Slika_03_OSC_left.png
+   :scale: 40 %
+   :alt: Osciloscope settings
+   :alt: no AUTO SCALE
+   
+.. image:: Slika_03_OSC_right.png
+   :scale: 40 %
+   :alt: Osciloscope settings
+   :alt: AUTO SCALE
+
+
+
+
+**INPUTS**:	
+On the right side of the Oscilloscope&Sig. Generator application interface the IN1 and IN2 channels are listed. By a simple click on the name of a channel (not the gear) the channel gets highlighted and you can simply control all the settings of the respective channel.
 	
 The available settings are the following:
 
-**SHOW**: Shows or hides the curve associated with the channel.
+.. image :: Slika_05_OSC.png
+   :scale: 40 %
+   :alt: Osciloscope settings
+   :align: right
+	
+**SHOW**: 
+Shows or hides the curve associated with the channel.
 
-**INVERT***: Reflects the graph on the X axis.
+**INVERT***: 
+Reflects the graph on the X axis.
 
-**Probe attenuation**: (must be selected manually) The division that was set on the probe.
+**Probe attenuation**: 
+The division that was set on the probe. (must be selected manually)
 
-**Vertical offset**: Moves the curve up or down.
+**Vertical offset**: 
+Moves the curve up or down.
 
-**LV** and **HV**: Are osciloscope input range options of your HAMlab implemented via attenuator. 
+**LV** and **HV**: 
+Are osciloscope input range options of your HAMlab implemented via attenuator. 
 
 	* **HV** represent **higher voltage range** from **-20** to **+20** V.
 	* **LV** represent **low voltage range** from **-1** to **1** V. 
@@ -74,8 +101,12 @@ The available settings are the following:
 	* **AC** Osciloscope will show **only AC** component of a signal. 
 	* **DC** Osciloscope will show **both AC and DC** components of a signal.
 	
+
 Output
 ------
+
+.. image:: Slika_06_OSC.png
+   :align: center
 
 On the right side of the Oscilloscope & Sig. Generator application interface the **OUT1** and **OUT2** channels are listed. 
 
@@ -96,6 +127,12 @@ The available settings are the following:
 Various waveforms are available for output: **SINE** (sinus), **SQUARE** (rectangle) **TRIANGLE** (triangle), **SAWU** (rising sawtooth), **SAWD** (falling sawtooth), **DC** and **PWM** (Pulse Width Modulation).
 
 **TRIGGER**:
+
+.. image :: Slika_07_OSC.png
+   :scale: 40 %
+   :alt: Osciloscope settings
+   :align: right
+
 The Trigger is used to enable the scope to display changing waveforms to be displayed on the screen of the scope in a steady fashion. The parameter Source defines the trigger source used for this. The trigger source can be input channel 1 (IN1) or input channel 2 (IN2) or an external source. The available settings are the following:
 
 	* **LEVEL** Trigger level value is used to determinate at which value of signal amplitude the trigger condition will be satisfied(true). When signal amplitude achieves/cross this value the trigger state is set to “true”. Following “true” trigger condition the acquisition and signal plotting will be executed.
@@ -109,6 +146,7 @@ The Trigger is used to enable the scope to display changing waveforms to be disp
 The Source parameter defines the source used for this purpose. With the **IN1** or the **IN2** the signal at the respective input is selected; with the **EXT** you can invoke the trigger from outside through external BNC input connector located on front pannel indicated with **EXT TRIG**.
 
 **MATH**:
+
 Among the more interesting features of a digital oscilloscope is the "math" channel. 
 The available settings are the following:
 	
@@ -120,11 +158,24 @@ The available settings are the following:
 	* **ydt** Gives an time integration of the selected signal. 
 	* **INVERT** Inverts the signal.
 
+.. image :: Slika_08_OSC.png
+   :alt: MATH
+   :align: center
+   
+
 **CURSOR**:
 This feature enables the user to easily get the data of relevant basic measurements such is: signal period, amplitude, time delay, amplitude difference between two points, time difference between two points and etc.
 
+.. image :: Slika_09_OSC.png
+   :alt: CURSOR
+   :align: center
+
 **NAVIGATE**:
 When you have a lot of data to analyze, it is very important to get through them easily. Navigate left and right by dragging the data where you want and effortlessly zoom in and out by using your mouse scroll wheel.
+
+.. image :: Slika_04_OSC.png
+   :alt: NAVIGATE
+   :align: center
 
 **MEASUREMENTS**:
 The menu can be found under the **MEAS** button. Here you can select up to 4 measured values in total, then provide the corresponding values. 
@@ -139,3 +190,9 @@ In the Operator field select the desired measurement and then set the Signal fro
 	* **DUTY CYCLE**: The Signal’s duty cycle (ratio of the pulse duration and period length). 
 	* **PERIOD**: Displays the period length, the time length of a vibration. 
 	* **FREQ**: The frequency of the signal.
+
+NAVIGATE
+
+.. image :: Slika_10_OSC.png
+   :alt: MEASUREMENTS
+   :align: center
