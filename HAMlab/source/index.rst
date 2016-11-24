@@ -1,4 +1,4 @@
-Welcome to the HAMlab documentation.
+Welcome to the HAMlab user manual.
 ########################################
 
 .. toctree::

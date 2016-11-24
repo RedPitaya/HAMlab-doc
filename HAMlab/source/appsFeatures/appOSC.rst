@@ -191,7 +191,7 @@ In the Operator field select the desired measurement and then set the Signal fro
 	* **PERIOD**: Displays the period length, the time length of a vibration. 
 	* **FREQ**: The frequency of the signal.
 
-NAVIGATE
+**NAVIGATE**:
 
 .. image :: Slika_10_OSC.png
    :alt: MEASUREMENTS
