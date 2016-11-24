@@ -57,13 +57,13 @@ Oscilloscope & signal generator main features are listed below:
 
 .. image:: Slika_03_OSC_left.png
    :scale: 40 %
-   :alt: Osciloscope settings
-   :align: no AUTO SCALE
+   :alt: no AUTO SCALE
+   :align: center
    
 .. image:: Slika_03_OSC_right.png
    :scale: 40 %
-   :alt: Osciloscope settings
-   :align: AUTO SCALE
+   :alt: AUTO SCALE
+   :align: center
 
 
 
