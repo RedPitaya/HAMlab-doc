@@ -35,7 +35,7 @@ In addition to the supplied accessories, software and cables supplied with the H
 	* good RF **ground**
 	* Items that might be already included in the kit:
 	
-		- HAMlab compatible Microphone
+		- HAMlab compatible Microphone can be obtained at https://www.amazon.com/Microphone-Kenwood-TK-6110K-TK-6110K2-TK-705D/dp/B005WZO7TI
 		- A stabilized DC 13.8 VDC, 3A power supply
 		- Oscilloscope and logic analyzer probes
 
@@ -157,7 +157,6 @@ Ethernet Connection - connect the HAMlab to your local network using ethernet ca
 Front panel connections
 +++++++++++++++++++++++
 
-Microphone
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
 
