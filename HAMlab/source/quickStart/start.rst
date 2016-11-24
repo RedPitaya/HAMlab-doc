@@ -1,6 +1,3 @@
-Quick start
-$$$$$$$$$$$
-
 What is in the box and other additional requirements
 ####################################################
 

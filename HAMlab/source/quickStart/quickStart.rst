@@ -6,8 +6,6 @@ Quick start
    :numbered:
 
    start
-   spec
-
    connect
    unlock
    newSD
