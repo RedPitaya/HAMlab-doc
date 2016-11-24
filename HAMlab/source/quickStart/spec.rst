@@ -211,13 +211,15 @@ Logic analyzer
 | Trigger resolution				| 8 ns												|				
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Min. detectable pulse length			| 10 ns												|
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| Acquired data is compressed therefore the size of data than can be captured depends on activity of signal on LA inputs. 			|
-| For I2C, SPI & UART signals 1MS is typical sample depth.											|
-| All instrumentation applications are WEB based and don’t require the installation of any native software. 					|
-| Users can access them via a browser using their smartphone, tablet or a PC running any popular operating systems (MAC, Linux, Windows, 	|
-| Android and iOS).																|				
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------+-----------------------------------------------------------------------------------------------+
+																			
+
+.. note::
+
+	Acquired data is compressed therefore the size of data than can be captured depends on activity of signal on LA inputs. 			
+	For I2C, SPI & UART signals 1MS is typical sample depth.											
+	All instrumentation applications are WEB based and don’t require the installation of any native software. 					
+	Users can access them via a browser using their smartphone, tablet or a PC running any popular operating systems (MAC, Linux, Windows, 	Android and iOS).	
 
 
 General Electrical specifications
