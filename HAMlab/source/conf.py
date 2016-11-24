@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Red Pitaya'
+project = u'Red Pitaya HAMlab'
 copyright = u'2016, Red Pitaya d.d.'
 author = u'Miha Cankar'
 

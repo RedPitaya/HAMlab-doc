@@ -53,17 +53,17 @@ Oscilloscope & signal generator main features are listed below:
 		* frequency, 
 		* phase
 	
-**AUTOS CALE**: Automatically sets up the Oscilloscope to best display the input signal. By pressing this button, the voltage axis and the time axis are set so that at least one full period of the signal will fill the screen.
+**AUTO SCALE**: Automatically sets up the Oscilloscope to best display the input signal. By pressing this button, the voltage axis and the time axis are set so that at least one full period of the signal will fill the screen.
 
 .. image:: Slika_03_OSC_left.png
    :scale: 40 %
    :alt: Osciloscope settings
-   :alt: no AUTO SCALE
+   :align: no AUTO SCALE
    
 .. image:: Slika_03_OSC_right.png
    :scale: 40 %
    :alt: Osciloscope settings
-   :alt: AUTO SCALE
+   :align: AUTO SCALE
 
 
 
