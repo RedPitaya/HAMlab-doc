@@ -231,18 +231,4 @@ Run the Power SDR program on the computer and connect to HAMlab
 
 .. note::
  
-	Power SDR software is described in Power SDR section.
-
-
-Power SDR
----------
-
-Power SDR installation & configuration
-++++++++++++++++++++++++++++++++++++++
-
-Power SDR basic usage
-+++++++++++++++++++++
-
-Pre-distortions / pure signal
-
-Network manager
+	Power SDR software is described in Power :ref:`sdr` section.
