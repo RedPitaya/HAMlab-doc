@@ -13,10 +13,10 @@ software will provide you with a unique working experience.
   
 HAMlab can be connected over:
 
-    1. Local Area Network (LAN) – Requires DHCP settings on your local network router  
-    4. Direct Ethernet cable connection – Requires additional setting on users PC and HAMlab
-    2. Wireless Network – Requires an additional WiFi dongle available at store
-    3. Access Point Mode – HAMlab creates its own WiFi network
+    1. Local Area Network (LAN) - Requires DHCP settings on your local network router  
+    2. Direct Ethernet cable connection - Requires additional setting on users PC and HAMlab
+    3. Wireless Network - Requires an additional WiFi dongle available at store
+    4. Access Point Mode - HAMlab creates its own WiFi network
     
 .. image:: connect-1.png
 
