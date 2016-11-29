@@ -6,18 +6,19 @@ Connect to your HAMlab
 Network connectivity user guide
 *******************************
 
-HAMlab box is network attachable devices focused on simple connectivity and quick accessibility. Having a 
+HAMlab is network attachable devices focused on simple connectivity and quick accessibility. Having a 
 graphical user interface for your Oscilloscope, Signal Generator, Logic Analizer and SDR application, 
 directly on your PC without any limitations such are limited commands or controls or any installation of additional 
 software will provide you with a unique working experience. 
   
 HAMlab can be connected over:
 
-    1. Local Area Network (LAN) - Requires DHCP settings on your local network router  
-    2. Direct Ethernet cable connection - Requires additional setting on users PC and HAMlab
-    3. Wireless Network - Requires an additional WiFi dongle available at store
-    4. Access Point Mode - HAMlab creates its own WiFi network
-    
+    1) Local Area Network (LAN) - Requires DHCP settings on your local network router  
+    2) Direct Ethernet cable connection - Requires additional setting on users PC and HAMlab
+    3) Wireless Network - Requires an additional WiFi dongle available at store
+    4) Access Point Mode - HAMlab creates its own WiFi network
+
+todo:replace this image
 .. image:: connect-1.png
 
 Wired
@@ -28,8 +29,7 @@ Local Area Network (LAN)
 
 This is the most common and recommended way of connecting and using your HAMlab. Your LAN network 
 needs to have DHCP settings enabled which is the case in majority of the local networks,  whit this,  simple “plug and
-play”  approach is enabled. Having HAMlab board connected the local network will enable quick access to all Red 
-Pitaya applications using only your web browser. Simply follow this 3 simple steps:
+play”  approach is enabled. Having HAMlab connected the local network will enable quick access to all applications using only your web browser. Simply follow this 3 simple steps:
 
     
     1. Connect power supply to the HAMlab
@@ -40,13 +40,15 @@ Pitaya applications using only your web browser. Simply follow this 3 simple ste
 
     ``xxxxxx`` are the last 6 characters from MAC address of your HAMlab. MAC address is written on the Ethernet 
     connector.
-    
+
+todo:replace image
 .. figure:: connect-2.png
     
     Figure 1: Connecting your HAMlab to the LAN network.
 
 After the **third step** you will get a HAMlab main page as shown below.
 
+todo:replace image
 .. figure:: connect-3.png
 
     Figure 2: HAMlab main page user interface.
@@ -54,17 +56,18 @@ After the **third step** you will get a HAMlab main page as shown below.
 Direct Ethernet cable connection
 ================================
 
-If there are some restrictions for the user to have HAMlab boards on the DHCP LAN network **permanently** there is a 
-possibility to directly connect to your HAMlab board. This type of connection requires additional settings on your PC
-and HAMlab board. 
+If there are some restrictions for the user to have HAMlab on the DHCP LAN network **permanently** there is a 
+possibility to directly connect to your HAMlab. This type of connection requires additional settings on your PC
+and HAMlab. 
 
 .. note::
 
     This connection is also arranged via Network manager application so users should first
-    have access to the LAN  (DHCP) network in order to arrange static IP on the HAMlab board. 
+    have access to the LAN  (DHCP) network in order to arrange static IP on the HAMlab. 
     
 How to set direct Ethernet connection is described bellow.
 
+todo:replace image
 .. image:: connect-10.png
 
 First step in connecting HAMlab directly to LAN network and setting a static IP on it. 
@@ -96,7 +99,7 @@ First step in connecting HAMlab directly to LAN network and setting a static IP 
 
     5. Select “Method – Manual”, Press “Add” button and insert:
 
-        - static IP address of your PC (must be different from the IP address of  the HAMlab board),  
+        - static IP address of your PC (must be different from the IP address of  the HAMlab),  
         - Netmask (input: 255.255.255.0)
         - Getaway (can be left empty)
         - DNS servers  (can be left empty) and click  “Save” button.
@@ -109,6 +112,7 @@ First step in connecting HAMlab directly to LAN network and setting a static IP 
         browser, in the web browser URL field input chosen HAMlab static IP (in our example it is 192.168.0.15) 
         and press enter.
 
+todo:replace image
     .. image:: connect-16.png 
     
 Wireless
@@ -123,9 +127,14 @@ first you need to use LAN connection. Access your HAMlab via web browser and sta
 application. Trough this application all network settings of the HAMlab are manageable. Simply select the
 desired WiFi network, input password and select connect. Once you have arranged WiFi network you don't need LAN
 connection anymore and after the restart of the HAMlab it will connect to the preset WiFi network
-automatically.  Notice: Connecting the HAMlab via WiFi network the additional WiFi dongle is needed. WiFi dongle is
-available here [Link to RS or similar].    
+automatically.  
 
+.. note:: 
+	
+	Connecting the HAMlab via WiFi network the additional WiFi dongle is needed. WiFi dongle is
+	available here [Link to RS or similar].    
+
+todo:replace image
 .. image:: connect-4.png
 
 .. TODO link na Local Area Network (LAN)
@@ -134,10 +143,10 @@ Steps on how to connect your HAMlab over WiFi network are described bellow:
  
     1. Start your HAMlab web user interface (Use connection described **Local Area Network (LAN) connection )**
     2. Open Network Manager application
-    3. Insert WiFi dongle in the USB plug on the HAMlab board. Supported WiFi dongles are described here [ `FAQ <http://redpitaya.com/faq/>`_ ]
+    3. Insert WiFi dongle in the USB plug on the HAMlab. Supported WiFi dongles are described here [ `FAQ <http://redpitaya.com/faq/>`_ ]
     
 
-
+todo:replace image
     .. image:: connect-5.png
 
     4. When the USB WiFi dongle is plugged in, the system will recognize it and enabled additional settings.
@@ -145,19 +154,19 @@ Steps on how to connect your HAMlab over WiFi network are described bellow:
     
     .. image:: connect-6.png
     
-    6. When your HAMlab board is connected  the IP address will be shown on the user interface. This IP address is 
+    6. When your HAMlab is connected the IP address will be shown on the user interface. This IP address is 
        only for WiFi connection. You can check the connection by inputing a WiFi IP address in the web browser URL 
        field (press enter after inputing). 
        
     .. image:: connect-7.png   
 
-    Now you have WiFi connection established. If you restart HAMlab board it will connect to selected network 
-    automatically (if selected network is available). Also you can disconnect LAN connection and your board will be 
+    Now you have WiFi connection established. If you restart HAMlab it will connect to selected network 
+    automatically (if selected network is available). Also you can disconnect LAN connection and your HAMlab will be 
     still available over the WiFi network i.e WiFi IP address.
     
     .. note::
     
-        WiFi networks are generally not robust and the full performances of the Red Pitaya application can be 
+        WiFi networks are generally not robust and the full performances of the HAMlab applications can be 
         affected. 
         
 Access Point mode
@@ -168,9 +177,14 @@ network on which users PC/Laptop or Tablet can be connected. Access Point mode i
 application where you give the name to your HAMlab network and enable it. Since Access Point mode is enabled via 
 Network Manager application  this means that first you need to use LAN network, access your HAMlab and arrange
 the Access Point mode. After this there is no need for LAN network and after restarting the HAMlab the settings are
-saved.  Notice: Connecting the HAMlab via Access Point mode the additional WiFi dongle is needed. WiFi dongle is 
-available [Link to RS or similar].
+saved.  
 
+.. note:: 
+	
+	Connecting the HAMlab via Access Point mode the additional WiFi dongle is needed. WiFi dongle is 
+	available [Link to RS or similar].
+
+todo:replace image
 .. image:: connect-8.png
 
 How to create Access Point network and connect to it is describe below.

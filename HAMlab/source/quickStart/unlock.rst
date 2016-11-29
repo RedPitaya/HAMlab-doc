@@ -4,7 +4,7 @@
 Unlocking Logic Analizer app
 ############################
 
-fix this acording to hamlab usercase
+fix this acording to hamlab usercase or remove it if unnecissay
 
 1. Click `here <http://store.redpitaya.com/myequipment/list/>`_ and log in with your account. If you are not registered yet, please do so!
 2. If redpitaya inside your HAMlab is not listed yet, click “Add new board” and follow the instructions.
