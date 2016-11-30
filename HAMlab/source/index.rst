@@ -2,7 +2,7 @@ Welcome to the HAMlab user manual.
 ########################################
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
     :numbered:
     
     ./quickStart/warning.rst

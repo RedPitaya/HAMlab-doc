@@ -1,16 +1,13 @@
-Connect to your HAMlab
-######################
+Alternative networking for HAMlab
+#################################
 
 .. TODO preveri slovnico
 
 Network connectivity user guide
 *******************************
 
-HAMlab is network attachable devices focused on simple connectivity and quick accessibility. Having a 
-graphical user interface for your Oscilloscope, Signal Generator, Logic Analizer and SDR application, 
-directly on your PC without any limitations such are limited commands or controls or any installation of additional 
-software will provide you with a unique working experience. 
-  
+HAMlab is network attached device focused on simple connectivity and quick accessibility. 
+
 HAMlab can be connected over:
 
     1) Local Area Network (LAN) - Requires DHCP settings on your local network router  
@@ -19,6 +16,7 @@ HAMlab can be connected over:
     4) Access Point Mode - HAMlab creates its own WiFi network
 
 todo:replace this image
+
 .. image:: connect-1.png
 
 Wired
@@ -38,8 +36,7 @@ play”  approach is enabled. Having HAMlab connected the local network will ena
        
 .. note::
 
-    ``xxxxxx`` are the last 6 characters from MAC address of your HAMlab. MAC address is written on the Ethernet 
-    connector.
+    ``xxxxxx`` are the last 6 characters from MAC address of your HAMlab. MAC address is written on the back hamlab panel. 
 
 todo:replace image
 .. figure:: connect-2.png
@@ -56,6 +53,14 @@ todo:replace image
 Direct Ethernet cable connection
 ================================
 
+It is possibe to astablish direct connection between your pc and HAMlab. For Windows 10 just connect HAMlab to your computer and access it using ``rp-xxxxxx.local/`` method. 
+
+.. note::
+
+   **Windows 7/8** users should install `Bonjour Print Services <http://redpitaya.com/bonjour>`_,
+   otherwise access to ``*.local`` addresses will not work.
+
+
 If there are some restrictions for the user to have HAMlab on the DHCP LAN network **permanently** there is a 
 possibility to directly connect to your HAMlab. This type of connection requires additional settings on your PC
 and HAMlab. 
@@ -68,6 +73,7 @@ and HAMlab.
 How to set direct Ethernet connection is described bellow.
 
 todo:replace image
+
 .. image:: connect-10.png
 
 First step in connecting HAMlab directly to LAN network and setting a static IP on it. 
@@ -135,6 +141,7 @@ automatically.
 	available here [Link to RS or similar].    
 
 todo:replace image
+
 .. image:: connect-4.png
 
 .. TODO link na Local Area Network (LAN)
@@ -185,6 +192,7 @@ saved.
 	available [Link to RS or similar].
 
 todo:replace image
+
 .. image:: connect-8.png
 
 How to create Access Point network and connect to it is describe below.

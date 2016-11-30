@@ -53,7 +53,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Red Pitaya HAMlab'
 copyright = u'2016, Red Pitaya d.d.'
-author = u'Miha Cankar'
+author = u'Red Pitaya'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

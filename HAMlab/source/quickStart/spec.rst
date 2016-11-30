@@ -256,14 +256,14 @@ SDR block diagram r2
 .. image :: HAMLAB_system_arch.png
 
 
-Front panel controls and connecrions 
+Front panel controls and connections 
 ####################################
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
 
 Power button
 ------------ 
-Momentarily pressing will turn the HAMlab ON. It normally takes 30s from the button press until the HAMlab is ready to be used. Once HAMlab is ON, momentarily pressing will cause the proper shut down of the device. Blue LED indication on the power button indicates that device is turned on.
+Momentarily pressing will turn the HAMlab ON. It normally takes 30s from the button press until the HAMlab is ready to be used. Once HAMlab is ON, holding the power button pressed will cause the proper shut down of the device. Blue LED indication on the power button indicates that device is turned on.
 
 .. note::
 	In case that system halts and becomes unresponsive, device can be turned off by holding power button for a few seconds / until the blue LED is turned off. 
@@ -326,9 +326,12 @@ For an iambic paddle, the tip is connected to the dot paddle, the ring is connec
 
 
 Oscilloscope
-5 - IN1
-6 - IN2
-7 - EXT. TRIG.
+++++++++++++
+
+	5 - IN1
+	6 - IN2
+	7 - EXT. TRIG.
+
 IN1, IN2 and EXT. TRIG. are oscilloscope inputs. 
 
 .. note::
@@ -337,8 +340,11 @@ IN1, IN2 and EXT. TRIG. are oscilloscope inputs.
 
 
 Signal generator
-8 - OUT1
-9 - OUT2
+++++++++++++++++
+
+	8 - OUT1
+	9 - OUT2
+
 OUT1 and OUT2 are signal generator outputs. 
 
 .. note::
@@ -352,6 +358,7 @@ OUT1 and OUT2 are signal generator outputs.
 
 
 Logic analyzer
+++++++++++++++
 
 0-7 are logic analyzer inputs. 
 G - common ground. 

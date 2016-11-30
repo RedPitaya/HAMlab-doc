@@ -1,3 +1,5 @@
+.. _sdcard:
+
 Prepare SD card
 ################
 
