@@ -39,6 +39,7 @@ play”  approach is enabled. Having HAMlab connected the local network will ena
     ``xxxxxx`` are the last 6 characters from MAC address of your HAMlab. MAC address is written on the back hamlab panel. 
 
 todo:replace image
+
 .. figure:: connect-2.png
     
     Figure 1: Connecting your HAMlab to the LAN network.
@@ -46,6 +47,7 @@ todo:replace image
 After the **third step** you will get a HAMlab main page as shown below.
 
 todo:replace image
+
 .. figure:: connect-3.png
 
     Figure 2: HAMlab main page user interface.
@@ -119,6 +121,7 @@ First step in connecting HAMlab directly to LAN network and setting a static IP 
         and press enter.
 
 todo:replace image
+
     .. image:: connect-16.png 
     
 Wireless
@@ -154,6 +157,7 @@ Steps on how to connect your HAMlab over WiFi network are described bellow:
     
 
 todo:replace image
+
     .. image:: connect-5.png
 
     4. When the USB WiFi dongle is plugged in, the system will recognize it and enabled additional settings.

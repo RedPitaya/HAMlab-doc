@@ -42,7 +42,7 @@ In addition to the supplied accessories, software and cables supplied with the H
 
 SDR application requirements:
 
-	* Personal computer (PC) running Windows Vista Service Pack 2 or later. Either 32 or 64-bit operating systems are supported. 
+	* Personal computer (PC) running Windows 7 or later. Either 32 or 64-bit operating systems are supported. 
 
 
 Instrumentation applications requirements: 
@@ -61,26 +61,27 @@ Back panel connections
 
 HAMlab should be powered by DC 13.8V Power Supply that can provide at least 3A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+
+.. image:: hamlab/IMG_20161130_090117.jpg
 
 **Ethernet Connection** - connect the HAMlab to your local network using ethernet cable.
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090107.jpg
 
 .. note::
 	
-	Other connections are at the moment not important, you can read more about them later in the BACK PANEL CONTROLS AND CONNECTIONS section.
+	Other connections are at the moment not important, you can read more about them later in the :ref:`backconcect` section.
 
 Front panel connections
 +++++++++++++++++++++++
 
 Oscilloscope probes 
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090049.jpg
 
 Logic analyzer probes 
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090059.jpg
 
 
 Turning it on and start using mesuring instruments
@@ -88,22 +89,22 @@ Turning it on and start using mesuring instruments
 
 	1) Turn on power supply, HAMlab will start automatically. Blue led on power button will turn on. Next time you can momentary press on the power button to turn it on.
 
-!!!!!!insert blue led image!!!!!
+.. image:: hamlab/IMG_20161130_132527.jpg
 	
 	2) Make sure your computer is connected to same local area network as HAMlab.
 	3) On your computer start a WEB browser (Chrome recommended).
 	
 	4) Type in the HAMlab URL.
 	
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/14-20-22.png
 
 URL can be found on the back panel of the HAMlab.
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_132607.jpg
 
 HAMlab application page should appear where measurement applications are listed.
      
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/14-19-19.png
 
 Click on application to run it. 
 
@@ -133,31 +134,31 @@ Back panel connections
 
 Antenna - Connect an HF antenna with nominal 50 Ohm impedance to the SO-239 connector.
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090121.jpg
 
 .. note ::
 	If you prefer BNC connector you can remove HAMlab top cover and reconnect it from SO-239 to BNC.
 	
 Ground - Remove the thumb screw marked GND. Connect your central station ground to the thumb screw and screw it back into the radio.
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090117.jpg
 
 Speakers - connect powered stereo speakers to the jack (Note that you can instead of speakers connect headphones on the front panel)
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090113.jpg
 
 USB cable - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090113.jpg
 
 Ethernet Connection - connect the HAMlab to your local network using ethernet cable
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090107.jpg
 
 HAMlab should be powered by DC 13.8V Power Supply that can provide at least 3A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090117.jpg
 
 .. note::
 
@@ -168,15 +169,15 @@ Front panel connections
 +++++++++++++++++++++++
 
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_132542.jpg
 
 Phones (optional if speakers are not connected)
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090056.jpg
 
 Key
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_090056.jpg
 
 
 .. note::
