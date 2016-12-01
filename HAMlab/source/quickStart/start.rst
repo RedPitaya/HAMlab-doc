@@ -1,5 +1,5 @@
-What is in the box and other additional requirements
-####################################################
+What is in the box 
+##################
 
 The following accessories and materials are included with your HAMlab kit. Carefully remove the HAMlab device and accessories from its shipping package and identify the items listed below. 
 
@@ -28,6 +28,10 @@ The following accessories and materials are included with your HAMlab kit. Caref
 .. +---------------------------------+----------------+------------+
 .. | Logic analyzer cable and probes |         x      |    ✓     	|
 .. +---------------------------------+----------------+------------+
+.. _shop: http://redpitaya.com/hamlab/#Products
+
+Other additional requirements
+#############################
 
 In addition to the supplied accessories, software and cables supplied with the HAMlab, you will need to provide the following:
 
@@ -35,9 +39,9 @@ In addition to the supplied accessories, software and cables supplied with the H
 	* powered **stereo speakers** (computer type) or stereo headphones
 	* **router** with enabled **DHCP** and connection to the internet
 	* good RF **ground**	
-	* HAMlab compatible Microphone 	available in HAMlab shop (http://redpitaya.com/hamlab/#Products)
+	* HAMlab compatible Microphone 	available in HAMlab shop_ .
 	* A stabilized DC 13.8 VDC, 3A **Power Supply**
-	* Oscilloscope and logic analyzer probes available in HAMlab shop (http://redpitaya.com/hamlab/#Products)
+	* Oscilloscope and logic analyzer probes available in HAMlab shop_ . 
 
 
 SDR application requirements:
@@ -70,7 +74,7 @@ Don’t turn on the power supply yet.
 
 .. note::
 	
-	Other connections are at the moment not important, you can read more about them later in the :ref:`backconcect` section.
+	Other connections are at the moment not important, you can read more about them later in the :ref:`back` section.
 
 Front panel connections
 +++++++++++++++++++++++
@@ -136,16 +140,20 @@ Antenna - Connect an HF antenna with nominal 50 Ohm impedance to the SO-239 conn
 
 .. image:: hamlab/IMG_20161130_090121.jpg
 
-.. note ::
+.. hint::
 	If you prefer BNC connector you can remove HAMlab top cover and reconnect it from SO-239 to BNC.
 	
 Ground - Remove the thumb screw marked GND. Connect your central station ground to the thumb screw and screw it back into the radio.
 
 .. image:: hamlab/IMG_20161130_090117.jpg
 
-Speakers - connect powered stereo speakers to the jack (Note that you can instead of speakers connect headphones on the front panel)
+Speakers - connect powered stereo speakers to the jack 
 
 .. image:: hamlab/IMG_20161130_090113.jpg
+
+.. note::
+
+	You can instead of speakers connect headphones on the front panel.
 
 USB cable - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B
 
@@ -162,7 +170,7 @@ Don’t turn on the power supply yet.
 
 .. note::
 
-	Other connections are at the moment not important, you can read more about them later in the BACK PANEL CONTROLS AND CONNECTIONS section.
+	Other connections are at the moment not important, you can read more about them later in the :ref:`back` section.
 
 
 Front panel connections
@@ -175,14 +183,13 @@ Phones (optional if speakers are not connected)
 
 .. image:: hamlab/IMG_20161130_090056.jpg
 
-Key
+Iambic Morse Code Paddle Keyer Plug
 
 .. image:: hamlab/IMG_20161130_090056.jpg
 
-
 .. note::
 
-	More information about compatibility of microphone, key and headphones and front panel connections in general can be found in the FRONT PANEL CONTROLS AND CONNECTIONS section.
+	More information about compatibility of microphone, key and headphones and front panel connections in general can be found in the :ref:`front` section.
 
 
 Turn it on & put HAMlab in SDR mode
@@ -193,15 +200,17 @@ Turn on power supply, HAMlab will start automatically. Next time you can momenta
 Make sure your computer is connected to same local area network as HAMlab
 On your computer start a WEB browser (Chrome recommended)
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/14-20-22.png
+   :align: center
+
 
 Type in the HAMlab URL that can be found on the back panel of the HAMlab
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/IMG_20161130_132607.jpg
 
 HAMlab application page should appear 
      
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image:: hamlab/14-19-19.png
 
 Click on the SDR icon in order to put HAMlab into SDR mode. Once in this mode user can connect to HAMlab using Power SDR software.
 
@@ -215,7 +224,8 @@ Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
 Power SDR installation & configuration (TBD, images)
 ----------------------------------------------------
 
-!!!!!!!!!!!!!!!!!!!!!TODO insert link!!!!!!!!!!!!!!!!!!!
+:ref:`SDR`
+
 Click here to download Power SDR installation package
 
 Select HAMlab hardware

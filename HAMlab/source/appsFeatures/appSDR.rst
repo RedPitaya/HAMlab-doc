@@ -15,6 +15,8 @@ In order to use HAMlab in SDR mode You must run SDR HPSDR web application first.
 While web application is running HAMlab will be in SDR mode and you can connect to it with PowerSDR software to use it as radio.
    
 .. image :: webapp.png   
+
+
 	
 Power SDR
 ---------    
@@ -72,3 +74,19 @@ Power SDR configuration
 
 Power SDR basic usage
 +++++++++++++++++++++    
+
+
+Credits
++++++++
+
+Original developer of sdr-transceiver-hpsdr web application is Pavel Demin. 
+Original developer of PowerSDR is FlexRadio Systems. 
+
+Modified to work with HAMlab by Markus Grundner and Markus Großer.
+
+Reprosotories used for our builds:
+
+	https://github.com/RedPitaya/PowerSDR_HPSDR_mRX_PS
+	https://github.com/RedPitaya/red-pitaya-notes
+
+   

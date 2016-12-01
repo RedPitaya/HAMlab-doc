@@ -2,7 +2,7 @@
 WARNING! IMPORTANT NOTICE - Read before operating this unit 
 ###########################################################
 
-.. caution::
+.. warning::
 
     This radio has been configured to operate in your country according to your nation's regulations when required. It may operate on frequencies which are not allowed for public use.
     You are required to have a valid amateur radio license of an appropriate class from your government to have the privileges to operate on amateur radio frequencies.

@@ -172,7 +172,7 @@ Spectrum analyzer
 +-------------------------------+--------------------+
 | Bandwidth			| 0 - 62 MHz	     |
 +-------------------------------+--------------------+
-| Dynamic Range			| - 80dBm	     |
+| Dynamic Range			| -80dBm	     |
 +-------------------------------+--------------------+
 | Input noise level 		| < -119 dBm/Hz      |
 +-------------------------------+--------------------+
@@ -255,6 +255,8 @@ SDR block diagram r2
 
 .. image :: HAMLAB_system_arch.png
 
+
+.. _front:
 
 Front panel controls and connections 
 ####################################
@@ -371,7 +373,7 @@ G - common ground.
 
 
 
-.. _backconcect:
+.. _back:
 
 Back panel controls and connections 
 ###################################
@@ -383,11 +385,11 @@ ANT1 is SO-239 50 ohm connector, while ANT2 is BNC 50 ohm connector.
 
 User can connect transmitter output to ANT1 or ANT2 by properly connecting SMA cable inside the chassis to one of ANT connectors. Software switching between ANT1 and ANT2 is not available in HAMlab 80-10 10W version.
 
-.. caution::
+.. danger::
 
 	THIS UNIT GENERATES RADIO FREQUENCY (RF) ENERGY. USE CAUTION AND OBSERVE PROPER SAFETY PRACTICES REGARDING YOUR SYSTEM CONFIGURATION. WHEN ATTACHED TO AN ANTENNA, THIS RADIO IS CAPABLE OF GENERATING RF ELECTROMAGNETIC FIELDS WHICH REQUIRE EVALUATION ACCORDING TO YOUR NATIONAL LAW TO PROVIDE ANY NECESSARY ISOLATION OR PROTECTION REQUIRED, WITH RESPECT TO HUMAN EXPOSURE! 
 
-.. caution::
+.. danger::
 
 	NEVER CONNECT OR DISCONNECT ANTENNAS WHILE IN TRANSMIT MODE. THIS MAY CAUSE ELECTRICAL SHOCK OR RF BURNS TO YOUR SKIN AND DAMAGE TO THE UNIT. 
 
@@ -419,7 +421,7 @@ DC POWER INPUT
 --------------
 The HAMlab 80-10 10W  is designed to operate from a 13.8 volt nominal DC supply and required at least 3A.
 
-.. caution::
+.. danger::
 
 	This unit must only be operated with the electrical power described in this manual. NEVER CONNECT THE +13.8VDC POWER CONNECTOR DIRECTLY TO AN AC OUTLET. This may cause a fire, injury, or electrical shock. 
 
@@ -445,7 +447,7 @@ There are two internal fuses in the HAMlab. One is protecting whole system while
 
 !!!!!!!!!!!!inset image!!!!!!!!!!!
 
-.. caution::
+.. danger::
 
 	FUSE CURRENT RATING SHOULD NOT BE HIGHER THAN ?? AMPS! FAILURE TO PROPERLY USE THIS SAFETY DEVICE COULD RESULT IN DAMAGE TO YOUR RADIO, POWER SUPPLY, OR CREATE A FIRE RISK. 
 
