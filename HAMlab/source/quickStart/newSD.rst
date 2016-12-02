@@ -3,15 +3,12 @@
 Prepare SD card
 ################
 
-1. Download the Red Pitaya Image File
+1. Download latest HAMlab OS Image File 
     
     .. image:: microSDcard-RP.png
        :width: 10%
     
-    `Download <http://blog.redpitaya.com/quick-start/Login>`_
-    
-    - FAQ: `Where can I find more about Red Pitaya OS releases? <http://blog.redpitaya.com/faq-page/#Software|32740>`_
-    - FAQ: `Where can I find old Red Pitaya OS & application relases? <http://blog.redpitaya.com/faq-page/#Software|25467>`_
+    `Download <http://downloads.redpitaya.com/hamlab/>`_
     
 2. Unzip
 
@@ -33,7 +30,7 @@ Windows
     
     .. image:: 3.png
     
-    4. Under image file box select unzipped Red Pitaya image file.
+    4. Under image file box select unzipped HAMlab OS image file.
     
     .. image:: 4.png
     
@@ -76,7 +73,7 @@ Linux
     
     .. image:: ubuntu_sdprepare3.png
     
-    5. Write the image to the SD card with the following command : dd if=red_pitaya_image_file of=/dev/sdb bs=1M
+    5. Write the image to the SD card with the following command : dd if=image_file of=/dev/sdb bs=1M
     
     .. note::
     
@@ -117,7 +114,7 @@ MacOS
     .. image:: 52.png
 
 
-    6. Select Red Pitaya OS image file.
+    6. Select HAMlab OS image file.
     
     .. image:: 62.png
 
@@ -134,9 +131,14 @@ MacOS
 
     .. image:: 9.png
     
-    FAQ: `How to install Red Pitaya OS on MAC not using ApplePiBaker? <http://blog.redpitaya.com/faq-page/#QuickStart|23547>`_
+    FAQ: `How to install HAMlab OS on MAC not using ApplePiBaker? <http://blog.redpitaya.com/faq-page/#QuickStart|23547>`_
 
-4.  Insert SD card into Red Pitaya
+4.  Now you have a brand new Micro SD card with latest HAMlab OS. Insert it into HAMlab with contacts facing up.
 
-    .. image:: pitaya-quick-start-insert-sd-card.png
+    .. image:: hamlab/IMG_20161202_135343.jpg
+    
+5.  Power on Power Supply
+
+6.  Turn HAMlab ON by shortly pressing Power Button
+ 
     

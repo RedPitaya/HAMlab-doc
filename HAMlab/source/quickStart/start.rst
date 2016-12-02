@@ -8,26 +8,6 @@ The following accessories and materials are included with your HAMlab kit. Caref
 	* Ethernet cable   
 	* USB 2.0 Cable - A-Male to Mini-B
 
-.. +---------------------------------+----------------+------------+
-.. |       HAMlab 80-10  		  | 	basic	   |	full    |
-.. +=================================+================+============+
-.. | HAMlab 80-10 10W      	  |      ✓         |     ✓      |
-.. +---------------------------------+----------------+------------+
-.. | DC power cord with 		  |		   | 		|
-.. | Anderson Power Pole™ connectors |    ✓       	   |    ✓       |
-.. +---------------------------------+----------------+------------+
-.. | Ethernet cable       		  |      ✓   	   |       ✓    |
-.. +---------------------------------+----------------+------------+
-.. | USB 2.0 Cable - A-Male to Mini-B|  	  ✓        |    ✓       |
-.. +---------------------------------+----------------+------------+
-.. | Microphone         		  |   	    x      |       ✓    |
-.. +---------------------------------+----------------+------------+
-.. | Power supply      		  |   	x  	   |     ✓      |
-.. +---------------------------------+----------------+------------+
-.. | Two oscilloscope probes         |         x      | 	✓	|
-.. +---------------------------------+----------------+------------+
-.. | Logic analyzer cable and probes |         x      |    ✓     	|
-.. +---------------------------------+----------------+------------+
 .. _shop: http://redpitaya.com/hamlab/#Products
 
 Other additional requirements
@@ -91,14 +71,14 @@ Logic analyzer probes
 Turning it on and start using mesuring instruments
 --------------------------------------------------
 
-	1) Turn on power supply, HAMlab will start automatically. Blue led on power button will turn on. Next time you can momentary press on the power button to turn it on.
+	1.) Turn on power supply, HAMlab will start automatically. Blue led on power button will turn on. Next time you can momentary press on the power button to turn it on.
 
-.. image:: hamlab/IMG_20161130_132527.jpg
+		.. image:: hamlab/IMG_20161130_132527.jpg
 	
-	2) Make sure your computer is connected to same local area network as HAMlab.
-	3) On your computer start a WEB browser (Chrome recommended).
+	2.) Make sure your computer is connected to same local area network as HAMlab.
+	3.) On your computer start a WEB browser (Chrome recommended).
 	
-	4) Type in the HAMlab URL.
+	4.) Type in the HAMlab URL.
 	
 .. image:: hamlab/14-20-22.png
 
@@ -259,12 +239,14 @@ Run the Power SDR program on the computer and connect to HAMlab
 Troubleshooting
 ###############
 
-In case ob sd card failiure new HAMlab OS memory card will have to be prepaired.
- 
- 1) power off HAMlab
+HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case ob sd card failiure, in taht situation new HAMlab OS memory card will have to be prepaired.
+Please folow this steps:
+
+ 1) Power off HAMlab
  2) remove sd card from HAMlab
  3) insert sd cart into computer
  4) folow new :ref:`sdcard` guide to create new sd card with HAMlab OS
- 5) insert sd cart into HAMlab and power it on
+ 
+In case that new sd card does not behave as expected please use new sd card, size should be at least 4 Gb and it should be specified as class 10.
 
-
+ 

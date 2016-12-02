@@ -262,7 +262,7 @@ Front panel controls and connections
 ####################################
 
 
-.. image :: hamlab/IMG_20161130_132542.jpg
+.. image:: hamlab/IMG_20161130_132542.jpg
 
 Power button
 ------------ 
