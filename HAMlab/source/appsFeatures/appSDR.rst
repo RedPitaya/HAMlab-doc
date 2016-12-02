@@ -86,7 +86,7 @@ Modified to work with HAMlab by Markus Grundner and Markus Großer.
 
 Reprosotories used for our builds:
 
-	https://github.com/RedPitaya/PowerSDR_HPSDR_mRX_PS
-	https://github.com/RedPitaya/red-pitaya-notes
+	- https://github.com/RedPitaya/PowerSDR_HPSDR_mRX_PS
+	- https://github.com/RedPitaya/red-pitaya-notes
 
    
