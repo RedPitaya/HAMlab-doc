@@ -82,8 +82,6 @@ Credits
 Original developer of sdr-transceiver-hpsdr web application is Pavel Demin. 
 Original developer of PowerSDR is FlexRadio Systems. 
 
-Modified to work with HAMlab by Markus Grundner and Markus Großer.
-
 Reprosotories used for our builds:
 
 	- https://github.com/RedPitaya/PowerSDR_HPSDR_mRX_PS
