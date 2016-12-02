@@ -261,7 +261,8 @@ SDR block diagram r2
 Front panel controls and connections 
 ####################################
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+
+.. image :: hamlab/IMG_20161130_132542.jpg
 
 Power button
 ------------ 
@@ -445,7 +446,9 @@ Fuse
 There are two internal fuses in the HAMlab. One is protecting whole system while the other one is just for the transceiver. If you ever need to replace the internal fuse, remove the top cover and the shield of the power board.  
 
 
-!!!!!!!!!!!!inset image!!!!!!!!!!!
+.. image :: hamlab/IMG_20161202_105403.jpg
+
+.. image :: hamlab/IMG_20161202_105424.jpg
 
 .. danger::
 
