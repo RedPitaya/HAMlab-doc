@@ -419,8 +419,9 @@ or to as feedback signal for pre-distortions (Pure Signal tool).
 
 
 XVTR (TX2 OUT)  - secondary transmitter can be used to drive external PA
-Max. output power is around 10 dBm @ 50ohm
+Max. output power is around 10 dBm @ 50ohm.
 
+However, currently there is no support in HPSDR for a second TX output.
 
 DC POWER INPUT
 --------------
