@@ -46,7 +46,7 @@ Receiver Specifications
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 |Preamp +15dB at 14MHz				| -130dBm											|
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
-|Preamp +30dB at 50MHz				| NA												|
+|Preamp +30dB at 50MHz				| -135dBm											|
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 |						| More MDS measurements. 									|
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
@@ -69,7 +69,7 @@ Transmitter Specifications
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 |Transmitter Frequency Range:			|	80 - 10m (amateur bands only)								|
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
-|Low Pass PA Filter Bands:			| 80, 40, 20, 12/10 m (possibility to changed it to any range 1.8 - 50MHz)			|	
+|Low Pass PA Filter Bands:			| 80m/40m/20m/10m (possibility to changed it to any range 1.8 - 50MHz)				|	
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 |Emission Modes Types:				| not limited by HAMlab hw, depending on 3rd party SDR software used				|
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
@@ -398,6 +398,7 @@ User can connect transmitter output to ANT1 or ANT2 by properly connecting SMA c
 AUX1
 ----
 RX1 IN - direct feed to the first receiver pre-amp and attenuators.
+
 RX1 OUT - an output from the antenna feeding 
 
 
@@ -405,8 +406,11 @@ By default HAMlab 80-10 10W comes with loopback cable connected from RX1 IN to R
 
 
 .. note::
-	this input is not protected by any ESD circuitry, therefore device connected to the RX1 OUT Output is susceptible to possible damage by ESD from an EMP event if the connected device does not have adequate ESD protection circuitry. 
+	This input is not protected by any ESD circuitry, therefore device connected to the RX1 OUT Output is susceptible to possible damage by ESD from an EMP event if the connected device does not have adequate ESD protection circuitry. 
 
+.. warning::
+	Be aware that Preamp1 and Preamp 2 are both wide band amplifiers covering the whole bandwidth of 55MHz. 
+	It is not recommended to use the Preamps on a large Antenna without a Preselector connected (this would cause overload and intermodulation from strong broadcast signals outside the Amateur Radio Bands)!
 
 AUX2
 ----
@@ -452,7 +456,7 @@ There are two internal fuses in the HAMlab. One is protecting whole system while
 
 .. danger::
 
-	FUSE CURRENT RATING SHOULD NOT BE HIGHER THAN ?? AMPS! FAILURE TO PROPERLY USE THIS SAFETY DEVICE COULD RESULT IN DAMAGE TO YOUR RADIO, POWER SUPPLY, OR CREATE A FIRE RISK. 
+	FUSE CURRENT RATING SHOULD NOT BE HIGHER THAN 3.15A AMPS! FAILURE TO PROPERLY USE THIS SAFETY DEVICE COULD RESULT IN DAMAGE TO YOUR RADIO, POWER SUPPLY, OR CREATE A FIRE RISK. 
 
 
 Chassis ground

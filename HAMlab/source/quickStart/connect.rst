@@ -55,7 +55,7 @@ todo:replace image
 Direct Ethernet cable connection
 ================================
 
-It is possibe to astablish direct connection between your pc and HAMlab. For Windows 10 just connect HAMlab to your computer and access it using ``rp-xxxxxx.local/`` method. 
+It is possibe to establish direct connection between your pc and HAMlab. For Windows 10 just connect HAMlab to your computer and access it using ``rp-xxxxxx.local/`` method. 
 
 .. note::
 

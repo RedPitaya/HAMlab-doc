@@ -34,8 +34,8 @@ Instrumentation applications requirements:
 	* All instrumentation applications are WEB based and don’t require the installation of any native software. Users can access them via a browser using their smartphone, tablet or a PC running any popular operating systems (macOS, Linux, Windows, Android or iOS).
 
 
-Start using HAMlab measurment instruments
-#########################################
+Start using HAMlab measurement instruments
+##########################################
 
 Connecting the cables
 ---------------------
@@ -68,8 +68,8 @@ Logic analyzer probes
 .. image:: hamlab/IMG_20161130_090059.jpg
 
 
-Turning it on and start using mesuring instruments
---------------------------------------------------
+Turning it on and start using measuring instruments
+---------------------------------------------------
 
 	1.) Turn on power supply, HAMlab will start automatically. Blue led on power button will turn on. Next time you can momentary press on the power button to turn it on.
 
@@ -239,13 +239,13 @@ Run the Power SDR program on the computer and connect to HAMlab
 Troubleshooting
 ###############
 
-HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case ob sd card failiure, in taht situation new HAMlab OS memory card will have to be prepaired.
-Please folow this steps:
+HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case ob sd card failiure. In that situation new HAMlab OS memory card will have to be prepaired.
+Please folow this steps to achieve this:
 
  1) Power off HAMlab
- 2) remove sd card from HAMlab
- 3) insert sd cart into computer
- 4) folow new :ref:`sdcard` guide to create new sd card with HAMlab OS
+ 2) Remove sd card from HAMlab
+ 3) Insert sd cart into computer
+ 4) Folow new :ref:`sdcard` guide to create new sd card with HAMlab OS
  
 In case that new sd card does not behave as expected please use new sd card, size should be at least 4 Gb and it should be specified as class 10.
 
