@@ -192,7 +192,16 @@ HAMlab application page should appear
      
 .. image:: hamlab/14-19-19.png
 
-Click on the SDR icon in order to put HAMlab into SDR mode. Once in this mode user can connect to HAMlab using Power SDR software.
+
+In order to use HAMlab in SDR mode You must run SDR HPSDR web application first. 
+
+.. image :: ../appsFeatures/hpsdr_icon.png
+   :alt: icon
+   :align: center
+   
+Click on the SDR icon in order to put HAMlab into SDR mode. While web application is running HAMlab will be in SDR mode and you can connect to it with PowerSDR software to use it as radio.
+   
+.. image :: ../appsFeatures/webapp.png   
 
 Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
 
@@ -251,7 +260,7 @@ This is only done once, even after updating the software to a new version in the
 
 .. note::
  
-	Power SDR software is described in Power :ref:`sdr` section.
+	Power SDR software is described in :ref:`sdr` section.
 
 
 
