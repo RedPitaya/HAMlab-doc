@@ -173,7 +173,7 @@ Iambic Morse Code Paddle Keyer Plug
 
 
 Turn it on & put HAMlab in SDR mode
------------------------------------
++++++++++++++++++++++++++++++++++++
 
 
 Turn on power supply, HAMlab will start automatically. Next time you can momentary press on the power button to turn it on/off.
@@ -194,52 +194,72 @@ HAMlab application page should appear
 
 Click on the SDR icon in order to put HAMlab into SDR mode. Once in this mode user can connect to HAMlab using Power SDR software.
 
-.. note::
-
-	Exiting this web application will close the connection to Power SDR.
-
 Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
-
-
-Power SDR installation & configuration (TBD, images)
-----------------------------------------------------
-.. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_Hamlab_Edition.exe
-
-Click here_ to download Power SDR installation package and go to :ref:`SDR` for instalation procedure 
-
-Select HAMlab hardware
-
-Audio setup: VAC1 setup -> select USB codec 
-
-Click POWER to connect to HAMlab
-
-START USING POWER SDR SOFTWARE
-++++++++++++++++++++++++++++++
-
-Setting the operating frequency or changing the band
-Setting Rx attenuators and amplifiers
-Transmitting
-Applications & features
-
-In order to use HAMlab as SDR user has to:
-Run the SDR radio application on HAMlab - this will put HAMlab in SDR mode. 
-
-
-Run the Power SDR program on the computer and connect to HAMlab
-
 
 .. note:: 
 
 	Exiting this SDR WEB application will close the connection to Power SDR.
 
+
+Power SDR installation and SDR configuration
+--------------------------------------------
+
+.. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_Hamlab_Edition.exe
+
+Click here_ to download Power SDR installation package.
+
+
+1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_Hamlab_Edition.exe file.
+
+
+2. If you are asked for extended user access rights during the installation click Yes!
+
+
+3. Follow the instructions of the setup routine and accept the license agreements if asked for.
+
+
+4. At the end of the installation you are asked if you want to run PowerSDR Charly 25 / Hamlab Edition software immediately, feel free to do so.
+
+
+5. After starting the PowerSDR Charly 25 / Hamlab Edition software the first time you will be led through the PowerSDR Charly 25 / Hamlab Edition specific setup wizard which lets you configure the software to use it with your Hamlab.
+
+So please choose Hamlab as your radio model:
+
+.. image :: ../appsFeatures/powersdrsetup01.jpg
+
+6. Confirm the RedPitaya as HPSDR hardware (currently there is no other type of hardware available for the Hamlab).
+
+.. image :: ../appsFeatures/powersdrsetup02.jpg
+
+7. Select the region where you are using your Hamlab, this is important due to the different frequency ranges your are allowed to transmit in the different countries all over the world:
+
+.. image :: ../appsFeatures/powersdrsetup03.jpg
+
+8. Your initial setup is completed:
+
+.. image :: ../appsFeatures/powersdrsetup04.jpg
+
+9.  After clicking the Finish button PowerSDR Charly 25 / Hamlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
+This is only done once, even after updating the software to a new version in the future:
+
+.. image :: ../appsFeatures/powersdrsetup05.jpg
+
+10. When all calculations are done, PowerSDR Charly 25 / Hamlab Edition will come up with the main window:
+
+.. image :: ../appsFeatures/powersdrsetup06.jpg
+
+
 .. note::
  
 	Power SDR software is described in Power :ref:`sdr` section.
 
+
+
+
 Troubleshooting
 ###############
 
-HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case ob sd card failiure. In that situation new HAMlab OS memory card will have to be prepaired.
+HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case of sd card failiure. In that situation new HAMlab OS memory card will have to be prepaired.
 Please folow this steps to achieve this:
 
  1) Power off HAMlab
