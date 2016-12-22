@@ -169,11 +169,13 @@ Turn it on & put HAMlab in SDR mode
 +++++++++++++++++++++++++++++++++++
 
 
-Turn on power supply, HAMlab will start automatically. Next time you can momentary press on the power button to turn it on/off.
-Make sure your computer is connected to same local area network as HAMlab
-On your computer start a WEB browser (Chrome recommended)
+1.) Turn on power supply, HAMlab will start automatically. Next time you can momentary press on the power button to turn it on/off.
 
-Type in the HAMlab URL that can be found on the back panel of the HAMlab
+2.) Make sure your computer is connected to same local area network as HAMlab.
+
+3.) On your computer start a WEB browser (Chrome recommended).
+
+4.) Type in the HAMlab URL that can be found on the back panel of the HAMlab
 
 .. image:: HamLab_images/4_Type_in_the_HAMlabURL.jpg
 
@@ -206,12 +208,17 @@ Power SDR installation and SDR configuration
 Click here_ to download Power SDR installation package.
 
 
-1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_Hamlab_Edition.exe file.
+1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_HAMlab_Edition.exe file.
+
+	.. image :: HamLab_images/PowerSDRinstallation1.PNG
 
 
-2. If you are asked for extended user access rights during the installation click Yes!
+2. If you are asked for extended user access rights during the installation click Yes! Running installer with administration rights will work as well. 
 	
-On Windows 10 this is done by clicking on "more info" and then "Run anyway". 
+	.. image :: HamLab_images/PowerSDRinstallation2.PNG
+	
+On Windows 10 you might get warning of Unknown Publisher you can procede with installation by clicking on "more info" and then "Run anyway".
+ 
 	.. image :: HamLab_images/PowerSDRinstallation3.PNG
 	.. image :: HamLab_images/PowerSDRinstallation4.PNG
 
@@ -239,12 +246,12 @@ So please choose Hamlab as your radio model:
 
 .. image :: ../appsFeatures/powersdrsetup04.jpg
 
-9.  After clicking the Finish button PowerSDR Charly 25 / Hamlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
+9.  After clicking the Finish button PowerSDR Charly 25 / HAMlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
 This is only done once, even after updating the software to a new version in the future:
 
 .. image :: ../appsFeatures/powersdrsetup05.jpg
 
-10. When all calculations are done, PowerSDR Charly 25 / Hamlab Edition will come up with the main window:
+10. When all calculations are done, PowerSDR Charly 25 / HAMlab Edition will come up with the main window:
 
 .. image :: ../appsFeatures/powersdrsetup06.jpg
 
