@@ -425,7 +425,7 @@ However, currently there is no support in HPSDR for a second TX output.
 
 DC POWER INPUT
 --------------
-The HAMlab 80-10 10W  is designed to operate from a 13.8 volt nominal DC supply and required at least 3A.
+The HAMlab 80-10 10W  is designed to operate from a 13.8 volt nominal DC supply and required at least 4A.
 
 .. danger::
 

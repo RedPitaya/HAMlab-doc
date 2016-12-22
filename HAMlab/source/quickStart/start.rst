@@ -20,7 +20,7 @@ In addition to the supplied accessories, software and cables supplied with the H
 	* **router** with enabled **DHCP** and connection to the internet
 	* good RF **ground**	
 	* HAMlab compatible Microphone 	available in HAMlab shop_ .
-	* A stabilized DC 13.8 VDC, 3A **Power Supply**
+	* A stabilized DC 13.8 VDC, 4A **Power Supply**
 	* Oscilloscope and logic analyzer probes available in HAMlab shop_ . 
 
 
