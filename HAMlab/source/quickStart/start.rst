@@ -291,3 +291,23 @@ In case that you see this dialog.
 .. image :: HamLab_images/SDRapplicationnotrunningonHAMlaborcnnectionproblems.PNG
 
 when trying to run PowerSDR please run SDR HPSDR web application before starting Power SDR.
+
+
+Audio board not woroking
+------------------------
+
+Check audio setings on your computer
+
+.. image :: HamLab_images/Volume.PNG
+
+Set correnct Power SDR avdio settings
+.. image :: HamLab_images/PowerSDRaudiosetup.PNG
+.. .. image :: HamLab_images/opencontrolpanel.PNG
+.. .. image :: HamLab_images/hardwareandsound.PNG
+.. image :: HamLab_images/PowerSDRaudiosetup.PNG
+
+HAMlab does not run anymore
+---------------------------
+
+Check power supply, power cable and fuse. Try new SD card with instructions from above.
+
