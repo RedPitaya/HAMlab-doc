@@ -9,9 +9,12 @@ The following accessories and materials are included with your HAMlab kit. Caref
 	* USB 2.0 Cable - A-Male to Mini-B
 
 .. _shop: http://redpitaya.com/hamlab/#Products
+.. _Hercules: https://www.hercules.com/uk/leisure-controllers/bdd/p/248/djcontrol-instinct-s-series/
 
 Other additional requirements
 #############################
+
+
 
 In addition to the supplied accessories, software and cables supplied with the HAMlab, you will need to provide the following:
 
@@ -22,7 +25,7 @@ In addition to the supplied accessories, software and cables supplied with the H
 	* HAMlab compatible Microphone 	available in HAMlab shop_ .
 	* A stabilized DC 13.8 VDC, 4A **Power Supply**
 	* Oscilloscope and logic analyzer probes available in HAMlab shop_ . 
-
+	* DJControl Instinct S Series available from Hercules_ or other midi controller.
 
 SDR application requirements:
 
@@ -43,14 +46,13 @@ Connecting the cables
 Back panel connections
 ++++++++++++++++++++++
 
-HAMlab should be powered by DC 13.8V Power Supply that can provide at least 3A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
+HAMlab should be powered by DC 13.8 V Power Supply that can provide at least 4A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector (1) to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
-.. image:: hamlab/IMG_20161130_090117.jpg
+.. image:: HamLab_images/2.3.1.1._Back_panel_connections.jpg
 
-**Ethernet Connection** - connect the HAMlab to your local network using ethernet cable.
+**Ethernet Connection** (2)- connect the HAMlab to your local network using ethernet cable.
 
-.. image:: hamlab/IMG_20161130_090107.jpg
 
 .. note::
 	
@@ -59,32 +61,30 @@ Don’t turn on the power supply yet.
 Front panel connections
 +++++++++++++++++++++++
 
-Oscilloscope probes 
+.. image:: HamLab_images/2.3.1.2._Front_panel_connections.jpg
 
-.. image:: hamlab/IMG_20161130_090049.jpg
-
-Logic analyzer probes 
-
-.. image:: hamlab/IMG_20161130_090059.jpg
+1. Logic analyzer probes 
+2. Oscilloscope probes 
+3. Signal generator connections 
 
 
 Turning it on and start using measuring instruments
 ---------------------------------------------------
 
-	1.) Turn on power supply, HAMlab will start automatically. Blue led on power button will turn on. Next time you can momentary press on the power button to turn it on.
-
-		.. image:: hamlab/IMG_20161130_132527.jpg
+	1.) Turn on power supply, and press momentary power button on the HAMlab to turn it ON. Blue led on power button will turn on and after 30s HAMlab will be ready to use.	
 	
 	2.) Make sure your computer is connected to same local area network as HAMlab.
+	
 	3.) On your computer start a WEB browser (Chrome recommended).
 	
 	4.) Type in the HAMlab URL.
+
 	
-.. image:: hamlab/14-20-22.png
+.. image:: HamLab_images/4_Type_in_the_HAMlabURL.jpg
 
-URL can be found on the back panel of the HAMlab.
-
-.. image:: hamlab/IMG_20161130_132607.jpg
+.. note:
+	
+	URL can be found on the back panel of the HAMlab.
 
 HAMlab application page should appear where measurement applications are listed.
      
@@ -118,18 +118,14 @@ Back panel connections
 
 Antenna - Connect an HF antenna with nominal 50 Ohm impedance to the SO-239 connector.
 
-.. image:: hamlab/IMG_20161130_090121.jpg
+.. image:: HamLab_images/2.4.1.1._Back_panel_connections.jpg
 
 .. hint::
 	If you prefer BNC connector you can remove HAMlab top cover and reconnect it from SO-239 to BNC.
 	
 Ground - Remove the thumb screw marked GND. Connect your central station ground to the thumb screw and screw it back into the radio.
 
-.. image:: hamlab/IMG_20161130_090117.jpg
-
 Speakers - connect powered stereo speakers to the jack 
-
-.. image:: hamlab/IMG_20161130_090113.jpg
 
 .. note::
 
@@ -137,16 +133,12 @@ Speakers - connect powered stereo speakers to the jack
 
 USB cable - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B
 
-.. image:: hamlab/IMG_20161130_090113.jpg
 
 Ethernet Connection - connect the HAMlab to your local network using ethernet cable
 
-.. image:: hamlab/IMG_20161130_090107.jpg
-
-HAMlab should be powered by DC 13.8V Power Supply that can provide at least 3A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
+HAMlab should be powered by DC 13.8V Power Supply that can provide at least 4 A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
-.. image:: hamlab/IMG_20161130_090117.jpg
 
 .. note::
 
@@ -157,15 +149,16 @@ Front panel connections
 +++++++++++++++++++++++
 
 
-.. image:: hamlab/IMG_20161130_132542.jpg
+.. image:: HamLab_images/2.4.1.2._Front_panel_connections.jpg
 
 Phones (optional if speakers are not connected)
 
-.. image:: hamlab/IMG_20161130_090056.jpg
 
 Iambic Morse Code Paddle Keyer Plug
 
-.. image:: hamlab/IMG_20161130_090056.jpg
+.. note::
+
+	Currently keyer is not supported by software. Software support for it will be availabe in one of incomming software updates. 
 
 .. note::
 
@@ -180,13 +173,9 @@ Turn on power supply, HAMlab will start automatically. Next time you can momenta
 Make sure your computer is connected to same local area network as HAMlab
 On your computer start a WEB browser (Chrome recommended)
 
-.. image:: hamlab/14-20-22.png
-   :align: center
-
-
 Type in the HAMlab URL that can be found on the back panel of the HAMlab
 
-.. image:: hamlab/IMG_20161130_132607.jpg
+.. image:: HamLab_images/4_Type_in_the_HAMlabURL.jpg
 
 HAMlab application page should appear 
      
@@ -221,7 +210,10 @@ Click here_ to download Power SDR installation package.
 
 
 2. If you are asked for extended user access rights during the installation click Yes!
-
+	
+On Windows 10 this is done by clicking on "more info" and then "Run anyway". 
+	.. image :: HamLab_images/PowerSDRinstallation3.PNG
+	.. image :: HamLab_images/PowerSDRinstallation4.PNG
 
 3. Follow the instructions of the setup routine and accept the license agreements if asked for.
 
@@ -256,6 +248,9 @@ This is only done once, even after updating the software to a new version in the
 
 .. image :: ../appsFeatures/powersdrsetup06.jpg
 
+11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
+
+.. image :: HamLab_images/SDRconnectedproperlyreceiversignalonscreen.PNG
 
 .. note::
  
@@ -267,6 +262,9 @@ This is only done once, even after updating the software to a new version in the
 Troubleshooting
 ###############
 
+Damaged or currupted SD card
+----------------------------
+
 HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case of sd card failiure. In that situation new HAMlab OS memory card will have to be prepaired.
 Please folow this steps to achieve this:
 
@@ -275,6 +273,14 @@ Please folow this steps to achieve this:
  3) Insert sd cart into computer
  4) Folow new :ref:`sdcard` guide to create new sd card with HAMlab OS
  
-In case that new sd card does not behave as expected please use new sd card, size should be at least 4 Gb and it should be specified as class 10.
+In case that written sd card does not behave as expected please use new sd card, size should be at least 4 Gb and it should be specified as class 10.
 
- 
+
+SDR HPSDR Web application not running
+-------------------------------------
+
+In case that you see this dialog.
+
+.. image :: HamLab_images/SDRapplicationnotrunningonHAMlaborcnnectionproblems.PNG
+
+when trying to run PowerSDR please run SDR HPSDR web application before starting Power SDR.
