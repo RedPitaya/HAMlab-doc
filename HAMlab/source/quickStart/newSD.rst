@@ -135,7 +135,7 @@ MacOS
 
 4.  Now you have a brand new Micro SD card with latest HAMlab OS. Insert it into HAMlab with contacts facing up.
 
-    .. image:: hamlab/IMG_20161202_135343.jpg
+    .. image:: HamLab_images/sd_card.png
     
 5.  Power on Power Supply
 
