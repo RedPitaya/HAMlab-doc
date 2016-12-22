@@ -6,16 +6,24 @@ Power SDR
 Power SDR Instalation
 +++++++++++++++++++++
 
+Power SDR installation and SDR configuration
+--------------------------------------------
+
 .. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_HAMlab_Edition.exe
 Click here_ to download Power SDR installation package.
 
 
-1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_Hamlab_Edition.exe file.
+1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_HAMlab_Edition.exe file.
+
+	.. image :: HamLab_images/PowerSDRinstallation1.PNG
 
 
-2. If you are asked for extended user access rights during the installation click Yes!
+2. If you are asked for extended user access rights during the installation click Yes! Running installer with administration rights will work as well. 
 	
-	On Windows 10 this is done by clicking on "more info" and then "Run anyway". 
+	.. image :: HamLab_images/PowerSDRinstallation2.PNG
+	
+On Windows 10 you might get warning of Unknown Publisher you can procede with installation by clicking on "more info" and then "Run anyway".
+ 
 	.. image :: HamLab_images/PowerSDRinstallation3.PNG
 	.. image :: HamLab_images/PowerSDRinstallation4.PNG
 
@@ -43,18 +51,23 @@ So please choose Hamlab as your radio model:
 
 .. image :: ../appsFeatures/powersdrsetup04.jpg
 
-9.  After clicking the Finish button PowerSDR Charly 25 / Hamlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
+9.  After clicking the Finish button PowerSDR Charly 25 / HAMlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
 This is only done once, even after updating the software to a new version in the future:
 
 .. image :: ../appsFeatures/powersdrsetup05.jpg
 
-10. When all calculations are done, PowerSDR Charly 25 / Hamlab Edition will come up with the main window:
+10. When all calculations are done, PowerSDR Charly 25 / HAMlab Edition will come up with the main window:
 
 .. image :: ../appsFeatures/powersdrsetup06.jpg
 
 11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
 
 .. image :: HamLab_images/SDRconnectedproperlyreceiversignalonscreen.PNG
+
+.. note::
+ 
+	Power SDR software is described in :ref:`sdr` section.
+
 
 Power SDR basic usage
 +++++++++++++++++++++    
