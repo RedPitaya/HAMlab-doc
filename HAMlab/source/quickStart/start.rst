@@ -181,7 +181,7 @@ Turn it on & put HAMlab in SDR mode
 
 HAMlab application page should appear 
      
-.. image:: hamlab/14-19-19.png
+.. image:: hamlab/apps.png
 
 
 In order to use HAMlab in SDR mode You must run SDR HPSDR web application first. 
