@@ -7,6 +7,7 @@ The following accessories and materials are included with your HAMlab kit. Caref
 	* DC power cord with Anderson Power Pole™ connector
 	* Ethernet cable   
 	* USB 2.0 Cable - A-Male to Mini-B
+	* Rx fliters bypass BNC cable
 
 .. _shop: http://redpitaya.com/hamlab/#Products
 
@@ -144,7 +145,7 @@ Make sure that is turned off and then use DC power cord with Anderson Power Pole
 RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
-Make sure that loopback cable is connected from RX1 IN to RX1 OUT **(2)**.
+Mount Rx filters bypass BNC loopback cable from RX1 IN to RX1 OUT **(2)**.
 
 
 .. note::
@@ -209,6 +210,9 @@ Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
 
 	Exiting this SDR WEB application will close the connection to Power SDR.
 
+.. tip::
+	Optionaly you can connect MIDI controller to your PC. MIDI controller can be used to control radio software parameters like frequency with physical knobs.
+	
 
 Power SDR installation and SDR configuration
 --------------------------------------------
@@ -223,12 +227,17 @@ Click here_ to download Power SDR installation package.
 
 2. If you are asked for extended user access rights during the installation click Yes! Running installer with administration rights will work as well. 
 	
-	.. image :: HamLab_images/PowerSDRinstallation2.PNG
-	
+	.. image :: HamLab_images/PowerSDRinstallation2.png
+		:scale: 70%
+		
 On Windows 10 you might get warning of Unknown Publisher you can procede with installation by clicking on "more info" and then "Run anyway".
  
-	.. image :: HamLab_images/PowerSDRinstallation3.PNG
-	.. image :: HamLab_images/PowerSDRinstallation4.PNG
+	.. image:: HamLab_images/PowerSDRinstallation3.PNG
+		:scale: 75 %
+	
+	.. image:: HamLab_images/PowerSDRinstallation4.PNG
+		:scale: 75 %
+	
 
 3. Follow the instructions of the setup routine and accept the license agreements if asked for.
 
@@ -265,7 +274,10 @@ This is only done once, even after updating the software to a new version in the
 
 11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
 
-.. image :: HamLab_images/SDRconnectedproperlyreceiversignalonscreen.PNG
+.. image :: HamLab_images/SDRconnectepower.PNG
+
+
+
 
 .. note::
  
