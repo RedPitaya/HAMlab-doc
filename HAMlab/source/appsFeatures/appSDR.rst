@@ -64,10 +64,6 @@ This is only done once, even after updating the software to a new version in the
 
 .. image :: ../HamLab_images/SDRconnectepower.PNG
 
-.. note::
- 
-	Power SDR software is described in :ref:`sdr` section.
-
 
 Power SDR basic usage
 +++++++++++++++++++++    
