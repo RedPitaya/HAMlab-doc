@@ -9,5 +9,7 @@ Welcome to the HAMlab user manual.
     ./quickStart/quickStart.rst
     ./appsFeatures/appsTop.rst
     ./quickStart/spec.rst
+    ./quickStart/troubleshoot.rst
+    
 .. TODO skopiraj v https://gitlab.redpitaya.com/redpitaya-2-0/redpitaya-public.git branch doc
     

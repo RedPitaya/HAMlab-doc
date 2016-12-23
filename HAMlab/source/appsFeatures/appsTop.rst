@@ -2,8 +2,7 @@ Applications and Features
 #########################
 
 .. TODO 
-.. overview ( vse kar je na RP, ko jo uporabnik dobi iz skatle )
-            slika glavne applikacije z razlagami ( desktop app )
+.. overview ( hamlab applications )
     
 .. toctree::
     :maxdepth: 5

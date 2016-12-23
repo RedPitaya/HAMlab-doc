@@ -62,15 +62,23 @@ This is only done once, even after updating the software to a new version in the
 
 11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
 
-.. image :: ../HamLab_images/SDRconnectepower.PNG
+.. image :: ../quickStart/HamLab_images/SDRconnectepower.PNG
 
 
+
+Power SDR configuration
++++++++++++++++++++++++
+Audio configuration
+HAMlab configuration
+    
+    
 Power SDR basic usage
-+++++++++++++++++++++    
-
-TODO:
-
-
++++++++++++++++++++++   
+ 
+Putting HAMlab into SDR mode
+Connecting Power SDR with HAMlab
+Receiving 
+Transmitting
 
 Credits
 +++++++

@@ -47,11 +47,12 @@ Connecting the cables
 Back panel connections
 ++++++++++++++++++++++
 
-HAMlab should be powered by DC 13.8 V Power Supply that can provide at least 4A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector **(1)** to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
+HAMlab should be powered by DC 13.8 V Power Supply that can provide at least 4A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
 .. image:: HamLab_images/2.3.1.1._Back_panel_connections.jpg
 
+Anderson Power Pole™ power connector **(1)**
 Ethernet connection **(2)** - connect the HAMlab to your local network using ethernet cable.
 
 
@@ -269,54 +270,4 @@ This is only done once, even after updating the software to a new version in the
 .. note::
  
 	Power SDR software is described in :ref:`sdr` section.
-
-
-
-
-Troubleshooting
-###############
-
-Damaged or currupted SD card
-----------------------------
-
-HAMlabs equivalent for geting your sistem back into factory setings is preparing new sd card. This should be done in case of sd card failiure. In that situation new HAMlab OS memory card will have to be prepaired.
-Please folow this steps to achieve this:
-
- 1) Power off HAMlab
- 2) Remove sd card from HAMlab
- 3) Insert sd cart into computer
- 4) Folow new :ref:`sdcard` guide to create new sd card with HAMlab OS
- 
-In case that written sd card does not behave as expected please use new sd card, size should be at least 4 Gb and it should be specified as class 10.
-
-
-SDR HPSDR Web application not running
--------------------------------------
-
-In case that you see this dialog.
-
-.. image :: HamLab_images/SDRapplicationnotrunningonHAMlaborcnnectionproblems.PNG
-
-when trying to run PowerSDR please run SDR HPSDR web application before starting Power SDR.
-
-
-Audio board not woroking
-------------------------
-
-Check audio setings on your computer
-
-.. image :: HamLab_images/Volume.PNG
-
-Set correnct Power SDR avdio settings
-.. image :: HamLab_images/PowerSDRaudiosetup.PNG
-
-
-.. .. image :: HamLab_images/opencontrolpanel.PNG
-.. .. image :: HamLab_images/hardwareandsound.PNG
-.. image :: HamLab_images/PowerSDRaudiosetup.PNG
-
-HAMlab does not run anymore
----------------------------
-
-Check power supply, power cable and fuse. Try new SD card with instructions from above.
 
