@@ -70,16 +70,22 @@ This is only done once, even after updating the software to a new version in the
 
 Power SDR configuration
 +++++++++++++++++++++++
+
 Audio configuration
+
 HAMlab configuration
+
     
     
 Power SDR basic usage
 +++++++++++++++++++++   
  
 Putting HAMlab into SDR mode
+
 Connecting Power SDR with HAMlab
+
 Receiving 
+
 Transmitting
 
 Credits
