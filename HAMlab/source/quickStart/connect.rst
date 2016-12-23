@@ -1,7 +1,6 @@
 Alternative networking for HAMlab
 #################################
 
-.. TODO preveri slovnico
 
 Network connectivity user guide
 *******************************
@@ -15,7 +14,6 @@ HAMlab can be connected over:
     3) Wireless Network - Requires an additional WiFi dongle available at store
     4) Access Point Mode - HAMlab creates its own WiFi network
 
-todo:replace this image
 
 .. image:: connect-1.png
 
@@ -38,17 +36,15 @@ play”  approach is enabled. Having HAMlab connected the local network will ena
 
     ``xxxxxx`` are the last 6 characters from MAC address of your HAMlab. MAC address is written on the back hamlab panel. 
 
-todo:replace image
 
-.. figure:: connect-2.png
+.. figure:: HamLab_images/2.3.1.1._Back_panel_connections.jpg
     
     Figure 1: Connecting your HAMlab to the LAN network.
 
 After the **third step** you will get a HAMlab main page as shown below.
 
-todo:replace image
 
-.. figure:: connect-3.png
+.. figure:: hamlab/apps.png
 
     Figure 2: HAMlab main page user interface.
     
@@ -73,8 +69,6 @@ and HAMlab.
     have access to the LAN  (DHCP) network in order to arrange static IP on the HAMlab. 
     
 How to set direct Ethernet connection is described bellow.
-
-todo:replace image
 
 .. image:: connect-10.png
 
@@ -120,8 +114,6 @@ First step in connecting HAMlab directly to LAN network and setting a static IP 
         browser, in the web browser URL field input chosen HAMlab static IP (in our example it is 192.168.0.15) 
         and press enter.
 
-todo:replace image
-
     .. image:: connect-16.png 
     
 Wireless
@@ -143,7 +135,6 @@ automatically.
 	Connecting the HAMlab via WiFi network the additional WiFi dongle is needed. WiFi dongle is
 	available here [Link to RS or similar].    
 
-todo:replace image
 
 .. image:: connect-4.png
 
@@ -156,7 +147,6 @@ Steps on how to connect your HAMlab over WiFi network are described bellow:
     3. Insert WiFi dongle in the USB plug on the HAMlab. Supported WiFi dongles are described here [ `FAQ <http://redpitaya.com/faq/>`_ ]
     
 
-todo:replace image
 
     .. image:: connect-5.png
 
@@ -195,7 +185,6 @@ saved.
 	Connecting the HAMlab via Access Point mode the additional WiFi dongle is needed. WiFi dongle is 
 	available [Link to RS or similar].
 
-todo:replace image
 
 .. image:: connect-8.png
 

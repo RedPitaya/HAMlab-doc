@@ -434,8 +434,8 @@ Max. output power is around 10 dBm @ 50ohm.
 
 However, currently there is no support in HPSDR for a second TX output.
 
-DC POWER INPUT
---------------
+Power and Fuses
+---------------
 The HAMlab 80-10 10W  is designed to operate from a 13.8 volt nominal DC supply and required at least 4A.
 
 .. danger::
@@ -454,10 +454,6 @@ The Anderson Powerpole™ connector contains 45 Amp pins to minimize voltage dro
 
 I - If you choose to use your own Powerpole cabling, be sure to properly size the wire and the Powerpole connector to minimize voltage drop during transmit. Excessive voltage drop can cause lower transmit power output levels. 
 
-
-
-Fuse
-----
 
 There are two internal fuses in the HAMlab. One is protecting whole system while the other one is just for the transceiver. If you ever need to replace the internal fuse, remove the top cover and the shield of the power board.  
 
