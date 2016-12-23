@@ -88,7 +88,7 @@ Turning it on and start using measuring instruments
 
 HAMlab application page should appear where measurement applications are listed.
      
-.. image:: hamlab/14-19-19.png
+.. image:: hamlab/apps.png
 
 Click on application to run it. 
 
