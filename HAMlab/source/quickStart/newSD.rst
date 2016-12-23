@@ -141,4 +141,7 @@ MacOS
 
 6.  Turn HAMlab ON by shortly pressing Power Button
  
-    
+
+.. note ::
+
+	You can also use cross platform `Etcher <https://etcher.io/>`_ for burning your SD Card.

@@ -62,7 +62,7 @@ This is only done once, even after updating the software to a new version in the
 
 11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
 
-.. image :: HamLab_images/SDRconnectedproperlyreceiversignalonscreen.PNG
+.. image :: ../HamLab_images/SDRconnectepower.PNG
 
 .. note::
  

@@ -9,6 +9,7 @@ The following accessories and materials are included with your HAMlab kit. Caref
 	* USB 2.0 Cable - A-Male to Mini-B
 
 .. _shop: http://redpitaya.com/hamlab/#Products
+
 .. _Hercules: https://www.hercules.com/uk/leisure-controllers/bdd/p/248/djcontrol-instinct-s-series/
 
 Other additional requirements
@@ -46,12 +47,12 @@ Connecting the cables
 Back panel connections
 ++++++++++++++++++++++
 
-HAMlab should be powered by DC 13.8 V Power Supply that can provide at least 4A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector (1) to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
+HAMlab should be powered by DC 13.8 V Power Supply that can provide at least 4A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector **(1)** to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
 
 .. image:: HamLab_images/2.3.1.1._Back_panel_connections.jpg
 
-**Ethernet Connection** (2)- connect the HAMlab to your local network using ethernet cable.
+Ethernet connection **(2)** - connect the HAMlab to your local network using ethernet cable.
 
 
 .. note::
@@ -63,9 +64,7 @@ Front panel connections
 
 .. image:: HamLab_images/2.3.1.2._Front_panel_connections.jpg
 
-1. Logic analyzer probes 
-2. Oscilloscope probes 
-3. Signal generator connections 
+Logic analyzer probes **(1)**, Oscilloscope probes **(2)**, Signal generator connections **(3)** 
 
 
 Turning it on and start using measuring instruments
@@ -78,13 +77,18 @@ Turning it on and start using measuring instruments
 	3.) On your computer start a WEB browser (Chrome recommended).
 	
 	4.) Type in the HAMlab URL.
-
 	
+Example:
+
+.. image:: hamlab/url.png	
+
+
+.. note::
+	URL can be found on the back panel of the HAMlab. See image below. 
+	
+
 .. image:: HamLab_images/4_Type_in_the_HAMlabURL.jpg
 
-.. note:
-	
-	URL can be found on the back panel of the HAMlab.
 
 HAMlab application page should appear where measurement applications are listed.
      
@@ -115,29 +119,31 @@ Connecting the cables
 Back panel connections
 ++++++++++++++++++++++
 
+.. image:: HamLab_images/2.4.1.1._Back_panel_connections.jpg
 
 Antenna - Connect an HF antenna with nominal 50 Ohm impedance to the SO-239 connector.
 
-.. image:: HamLab_images/2.4.1.1._Back_panel_connections.jpg
-
-.. hint::
+.. note::
 	If you prefer BNC connector you can remove HAMlab top cover and reconnect it from SO-239 to BNC.
 	
 Ground - Remove the thumb screw marked GND. Connect your central station ground to the thumb screw and screw it back into the radio.
 
 Speakers - connect powered stereo speakers to the jack 
 
-.. note::
+.. tip::
 
 	You can instead of speakers connect headphones on the front panel.
 
-USB cable - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B
+USB cable **(3)** - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B. USB cable will provide a way for PowerSDR software to use HAMlabs audio outputs. 
 
+Ethernet Connection **(4)** - connect the HAMlab to your local network using ethernet cable
 
-Ethernet Connection - connect the HAMlab to your local network using ethernet cable
-
-HAMlab should be powered by DC 13.8V Power Supply that can provide at least 4 A of constant power. Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector to connect it with HAMlab. RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
+HAMlab should be powered by DC 13.8V Power Supply that can provide at least 4 A of constant power. 
+Make sure that is turned off and then use DC power cord with Anderson Power Pole™ connector **(1)** to connect it with HAMlab. 
+RED wire is positive (+) while BLACK wire is negative (-), double check to not mix the colours or polarity! 
 Don’t turn on the power supply yet.
+
+Make sure that loopback cable is connected from RX1 IN to RX1 OUT **(2)**.
 
 
 .. note::
@@ -151,18 +157,20 @@ Front panel connections
 
 .. image:: HamLab_images/2.4.1.2._Front_panel_connections.jpg
 
-Phones (optional if speakers are not connected)
+Microphone **(1)**
 
+.. note::
 
-Iambic Morse Code Paddle Keyer Plug
+	More information about compatibility of microphone, key and headphones and front panel connections in general can be found in the :ref:`front` section.
+
+Iambic Morse Code Paddle Keyer **(2)**
 
 .. note::
 
 	Currently keyer is not supported by software. Software support for it will be availabe in one of incomming software updates. 
 
-.. note::
+Phones **(3)** (optional if speakers are not connected)
 
-	More information about compatibility of microphone, key and headphones and front panel connections in general can be found in the :ref:`front` section.
 
 
 Turn it on & put HAMlab in SDR mode
@@ -205,13 +213,12 @@ Power SDR installation and SDR configuration
 --------------------------------------------
 
 .. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_HAMlab_Edition.exe
-Click here_ to download Power SDR installation package.
 
+Click here_ to download Power SDR installation package.
 
 1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_HAMlab_Edition.exe file.
 
 	.. image :: HamLab_images/PowerSDRinstallation1.PNG
-
 
 2. If you are asked for extended user access rights during the installation click Yes! Running installer with administration rights will work as well. 
 	
@@ -302,6 +309,8 @@ Check audio setings on your computer
 
 Set correnct Power SDR avdio settings
 .. image :: HamLab_images/PowerSDRaudiosetup.PNG
+
+
 .. .. image :: HamLab_images/opencontrolpanel.PNG
 .. .. image :: HamLab_images/hardwareandsound.PNG
 .. image :: HamLab_images/PowerSDRaudiosetup.PNG

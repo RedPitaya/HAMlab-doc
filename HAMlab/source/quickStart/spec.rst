@@ -266,7 +266,8 @@ Front panel controls and connections
 
 Power button
 ------------ 
-Momentarily pressing will turn the HAMlab ON. It normally takes 30s from the button press until the HAMlab is ready to be used. Once HAMlab is ON, holding the power button pressed will cause the proper shut down of the device. Blue LED indication on the power button indicates that device is turned on.
+
+Momentarily pressing power button **(1)** will turn the HAMlab ON. It normally takes 30s from the button press until the HAMlab is ready to be used. Once HAMlab is ON, holding the power button pressed will cause the proper shut down of the device. Blue LED indication on the power button indicates that device is turned on.
 
 .. note::
 	In case that system halts and becomes unresponsive, device can be turned off by holding power button for a few seconds / until the blue LED is turned off. 
@@ -278,7 +279,7 @@ SDR
 Microphone connector (RJ45)
 +++++++++++++++++++++++++++
 
-The HAMlab 80-10 10W front microphone connector can support Kenwood HM-152 electret microphone
+The HAMlab 80-10 10W front microphone connector **(2)** can support Kenwood HM-152 electret microphone
 or compatible types.
 
 .. image :: microfono-kmc-30-ml.jpg
@@ -305,17 +306,10 @@ Front panel view microphone pinout
 | 8   | NC	 |
 +-----+----------+
 
-
-Phones
-++++++
-
-The HAMlab 80-10 10W supports a stereo headset with headphone ¼ inch TRS phone plug.
-Mono or TS connector that grounds the “ring” portion of the connector should not be used!
-
-
 CW Key / paddle jack
 ++++++++++++++++++++++++
-The CW key/paddle jack is a ¼ inch TRS phone plug. 
+
+The CW key/paddle jack **(3)** is a ¼ inch TRS phone plug. 
 Tip - DOT
 Ring - DASH
 The common is connected to the sleeve. 
@@ -327,13 +321,38 @@ The common is connected to the sleeve.
 
 For an iambic paddle, the tip is connected to the dot paddle, the ring is connected to the dash paddle and the sleeve is connected to the common. For a straight key or a keyer output, connect to the tip and leave the ring floating. The common is connected to the sleeve. 
 
+.. note::
+
+	Currently keyer is not supported by software. Software support for it will be availabe in one of incomming software updates. 
+
+
+Phones
+++++++
+
+The HAMlab 80-10 10W supports a stereo headset with headphone ¼ inch TRS phone plug **(4)** .
+Mono or TS connector that grounds the “ring” portion of the connector should not be used!
+
+
+
+Logic analyzer
+++++++++++++++
+
+0-7 are logic analyzer inputs. 
+G - common ground. 
+
+
+.. note::
+	
+	Logic analyzer inputs **(5)** can only be used when running Logic analyzer WEB app.
+
+
 
 Oscilloscope
 ++++++++++++
 
-	5 - IN1
-	6 - IN2
-	7 - EXT. TRIG.
+	**(6)** - IN1
+	**(7)** - IN2
+	**(8)** - EXT. TRIG.
 
 IN1, IN2 and EXT. TRIG. are oscilloscope inputs. 
 
@@ -345,8 +364,8 @@ IN1, IN2 and EXT. TRIG. are oscilloscope inputs.
 Signal generator
 ++++++++++++++++
 
-	8 - OUT1
-	9 - OUT2
+	**(9)** - OUT1
+	**(10)** - OUT2
 
 OUT1 and OUT2 are signal generator outputs. 
 
@@ -360,18 +379,6 @@ OUT1 and OUT2 are signal generator outputs.
 	To get expected signals from the signal generator, outputs must be 50ohm terminated.
 
 
-Logic analyzer
-++++++++++++++
-
-0-7 are logic analyzer inputs. 
-G - common ground. 
-
-
-.. note::
-	
-	Logic analyzer inputs can only be used when running Logic analyzer WEB app.
-
-
 
 
 .. _back:
@@ -379,12 +386,13 @@ G - common ground.
 Back panel controls and connections 
 ###################################
 
-.. image : HamLab_images//4.7._Back_panel_controls_and_connections.png
+
+.. image :: HamLab_images//4.7._Back_panel_controls_and_connections.png
 
 
 ANT - TRANSCEIVER ANTENNA PORTS [1,2]
 ------------------------------------- 
-ANT1 is SO-239 50 ohm connector, while ANT2 is BNC 50 ohm connector. 
+ANT1 **(1)** is SO-239 50 ohm connector, while ANT2 **(2)** is BNC 50 ohm connector. 
 
 
 User can connect transmitter output to ANT1 or ANT2 by properly connecting SMA cable inside the chassis to one of ANT connectors. Software switching between ANT1 and ANT2 is not available in HAMlab 80-10 10W version.
