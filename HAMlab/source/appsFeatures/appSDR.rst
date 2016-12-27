@@ -84,6 +84,34 @@ Power SDR basic usage
 +++++++++++++++++++++   
  
 Putting HAMlab into SDR mode
+----------------------------
+
+
+1.) Turn on power supply, HAMlab will start automatically. Next time you can momentary press on the power button to turn it on/off.
+
+2.) Make sure your computer is connected to same local area network as HAMlab.
+
+3.) On your computer start a WEB browser (Chrome recommended).
+
+4.) Type in the HAMlab URL that can be found on the back panel of the HAMlab
+
+.. image:: ../quickStart/HamLab_images/4_Type_in_the_HAMlabURL.jpg
+
+HAMlab application page should appear 
+     
+.. image:: ../quickStart/apps.png
+
+
+In order to use HAMlab in SDR mode You must run SDR HPSDR web application first. 
+
+.. image :: ../appsFeatures/hpsdr_icon.png
+   :alt: icon
+   :align: center
+   
+Click on the SDR icon in order to put HAMlab into SDR mode. While web application is running HAMlab will be in SDR mode and you can connect to it with PowerSDR software to use it as radio.
+   
+.. image :: ../appsFeatures/webapp.png   
+
 
 Connecting Power SDR with HAMlab
 
