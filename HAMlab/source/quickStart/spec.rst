@@ -279,7 +279,7 @@ SDR
 Microphone connector (RJ45)
 +++++++++++++++++++++++++++
 
-The HAMlab 80-10 10W front microphone connector **(2)** can support Kenwood HM-152 electret microphone
+The HAMlab 80-10 10W front microphone connector **(2)** can support Kenwood KMC 30 electret microphone
 or compatible types.
 
 .. image :: microfono-kmc-30-ml.jpg
