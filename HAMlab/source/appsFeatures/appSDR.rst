@@ -114,10 +114,19 @@ Click on the SDR icon in order to put HAMlab into SDR mode. While web applicatio
 
 
 Connecting Power SDR with HAMlab
+--------------------------------
 
-Receiving 
+.. image :: ../quickStart/HamLab_images/PowerSdrSetupleft.PNG
+.. image :: ../quickStart/HamLab_images/PowerSdrSetup2.PNG
+.. image :: ../quickStart/HamLab_images/PowerSdrSetup.PNG
+
+Receiving
+--------- 
+
 
 Transmitting
+------------
+
 
 Credits
 +++++++
