@@ -65,11 +65,6 @@ You can also make a simple test by playing some music from youtube or using wind
 .. image :: HamLab_images/speaker_test2.PNG
 
 
-Power SDR audio settings are properly set to HAMlab audio card
-
-.. image :: ../quickStart/HamLab_images/PowerSDRaudiosetup.PNG
-
-
 
 HAMlab doesn’t turn ON anymore
 ++++++++++++++++++++++++++++++
