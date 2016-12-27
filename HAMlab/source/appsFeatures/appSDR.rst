@@ -99,7 +99,7 @@ Putting HAMlab into SDR mode
 
 HAMlab application page should appear 
      
-.. image:: ../quickStart/apps.png
+.. image:: ../quickStart/hamlab/apps.png
 
 
 In order to use HAMlab in SDR mode You must run SDR HPSDR web application first. 
@@ -116,9 +116,9 @@ Click on the SDR icon in order to put HAMlab into SDR mode. While web applicatio
 Connecting Power SDR with HAMlab
 --------------------------------
 
-.. image :: ../quickStart/HamLab_images/PowerSdrSetupleft.PNG
-.. image :: ../quickStart/HamLab_images/PowerSdrSetup2.PNG
-.. image :: ../quickStart/HamLab_images/PowerSdrSetup.PNG
+.. image :: ../quickStart/HamLab_images/PowerSDRsetupleft.PNG
+.. image :: ../quickStart/HamLab_images/PowerSDRsetup2.PNG
+.. image :: ../quickStart/HamLab_images/PowerSDRsetup.PNG
 	
 
 Receiving
