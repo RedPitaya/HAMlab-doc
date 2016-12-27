@@ -30,8 +30,8 @@ SDR transceiver application was not started or is not running on HAMlab
 When trying to run PowerSDR please run SDR HPSDR web application before starting Power SDR.
 
 
-Audio board not woroking
-------------------------
+Audio board not working
+-----------------------
 
 
 If audio there is no sound coming from your headphones or speaker connected to HAMlab while running Power SDR application please make sure that: 
