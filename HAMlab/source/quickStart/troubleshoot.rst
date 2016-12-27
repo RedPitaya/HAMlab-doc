@@ -49,14 +49,19 @@ Set correnct Power SDR avdio settings
 
 Make sure that HAMlab audio card was recognized by your Windows OS and driver is properly installed. 
 
+Open control panel.
+
 .. image :: HamLab_images/opencontrolpanel.PNG
+
+Click on Hardware and Sound
 
 .. image :: HamLab_images/hardwareandsound.PNG
 
+Check that audio card was recognized
+
 .. image :: HamLab_images/devicemanager.PNG
 
-You can also make a simple test by playing some music from youtube or using windows media player.
-
+You can also make a simple test by playing some music with media player.
 
 .. image :: HamLab_images/recording_test.PNG
 
