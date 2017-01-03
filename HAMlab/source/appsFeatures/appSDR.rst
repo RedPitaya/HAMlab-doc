@@ -76,7 +76,7 @@ Audio configuration
 .. image :: ../quickStart/HamLab_images/PowerSDRaudiosetup.PNG
 
 
-HAMlab configuration
+#HAMlab configuration
 
     
     
