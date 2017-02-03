@@ -169,7 +169,7 @@ Iambic Morse Code Paddle Keyer **(2)**
 
 .. note::
 
-	Currently keyer is not supported by software. Software support for it will be availabe in one of incomming software updates. 
+	Keyer is supported only with software 0.97-93 or later. Please check for software update.  
 
 Phones **(3)** (optional if speakers are not connected)
 
