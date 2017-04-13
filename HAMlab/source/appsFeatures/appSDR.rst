@@ -71,7 +71,7 @@ This is only done once, even after updating the software to a new version in the
 Power SDR configuration
 +++++++++++++++++++++++
 
-Audio configuration
+Audio configuration (only required for HAMlab 80-10 10W model)
 
 .. image :: ../quickStart/HamLab_images/PowerSDRaudiosetup.PNG
 

@@ -1,12 +1,31 @@
+HAMlab models that are covered by this user manual:
+
++-------------------+------------------+----------------------------------------------------+
+| **HAMlab model**  | **release date** | **what has changed to previous model**             |
++-------------------+------------------+----------------------------------------------------+
+| HAMlab 80-10 10W  | Dec. 2016        |                                                    |
++-------------------+------------------+----------------------------------------------------+
+|                   |                  | * all amateur transmit bands are now supported,    |
+| HAMlab 160-6 10W  | Apr. 2017        | * USB audio card was replaced with audio codec,    |
+|                   |                  | * other improvements                               |
++-------------------+------------------+----------------------------------------------------+
+
+
+.. note::
+
+	If you have proposal what to improve in next generation please contact us: hamlab@redpitaya.com
+
+
 What is in the box 
 ##################
 
+
 The following accessories and materials are included with your HAMlab kit. Carefully remove the HAMlab device and accessories from its shipping package and identify the items listed below. 
 
-	* HAMlab 80-10 10W
+	* HAMlab
 	* DC power cord with Anderson Power Pole™ connector
 	* Ethernet cable   
-	* USB 2.0 Cable - A-Male to Mini-B
+	* USB 2.0 Cable - A-Male to Mini-B (only for HAMlab 80-10 10W)
 	* Rx fliters bypass BNC cable
 
 .. _shop: http://redpitaya.com/hamlab/#Products
@@ -136,7 +155,7 @@ Speakers - connect powered stereo speakers to the jack
 
 	You can instead of speakers connect headphones on the front panel.
 
-USB cable **(3)** - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B. USB cable will provide a way for PowerSDR software to use HAMlabs audio outputs. 
+USB cable **(3)** - connect the HAMlab with the PC using USB 2.0 Cable - A-Male to Mini-B. USB cable will provide a way for PowerSDR software to use HAMlabs audio outputs. USB cable for audio is only required for HAMlab 80-10 10W model.
 
 Ethernet Connection **(4)** - connect the HAMlab to your local network using ethernet cable
 

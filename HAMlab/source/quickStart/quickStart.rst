@@ -10,4 +10,3 @@ Quick start
    unlock
    newSD
 
-`Troubleshooting <http://wiki.redpitaya.com/index.php?title=Troubleshooting>`_ 
