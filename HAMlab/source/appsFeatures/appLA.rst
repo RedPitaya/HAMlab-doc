@@ -78,4 +78,4 @@ As with the Oscilloscope the Logic Analyzer App also provides **CURSORS** for qu
 
 .. note::
 
-	For Logic Analizer application to work you will be required to enter unlock code into our licencing system. Procedure can be access at :ref:`unlock` section.
+	On HAMlab OS releses before 0.97.100 Logic Analizer application will be require to enter unlock code into our licencing system. Procedure can be access at :ref:`unlock` section. 
