@@ -58,27 +58,31 @@ Receiver Specifications
 Transmitter Specifications		
 --------------------------
 
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Architecture:                 | Direct Digital Up-conversion                                                                                        |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| TX DAC Sampling Rate:         | 125 Msps                                                                                                            |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| TX DAC Resolution:            | 14 bits                                                                                                             |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| RF Output Power:              | up to 10 W CW and SSB at @ 13.8 V input voltage (max. 15 V)                                                         |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Transmitter Frequency Range:  | 160 - 10 m (amateur bands only)*                                                                                    |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Low Pass PA Filter Bands:     | 160m / 80 m / 40 m / 30m / 20 m / 17m / 15m / 12m / 10m / 6 m (possibility to changed it to any range 1.8 - 50 MHz) |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Emission Modes Types:         | A1A (CWU, CWL), J3E (USB, LSB), A3E (AM), F3E (FM), DIGITAL (DIGU, DIGL)                                            |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Harmonic Radiation:           | better than -45 dB                                                                                                  |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| 3rd-Order IMD:                | better than -35 dB below PEP @ 14.2 MHz 10 Watts PEP                                                                |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Cooling:                      | copper heat spreader                                                                                                |
-+-------------------------------+---------------------------------------------------------------------------------------------------------------------+
++-------------------------------+--------------------------------------------------------------------------------------+
+| Architecture:                 | Direct Digital Up-conversion                                                         |
++-------------------------------+--------------------------------------------------------------------------------------+
+| TX DAC Sampling Rate:         | 125 Msps                                                                             |
++-------------------------------+--------------------------------------------------------------------------------------+
+| TX DAC Resolution:            | 14 bits                                                                              |
++-------------------------------+--------------------------------------------------------------------------------------+
+| RF Output Power:              | up to 10 W CW and SSB at @ 13.8 V input voltage (max. 15 V)                          |
++-------------------------------+--------------------------------------------------------------------------------------+
+| Transmitter Frequency Range:  | 160 - 10 m (amateur bands only)*                                                     |
++-------------------------------+--------------------------------------------------------------------------------------+
+| Low Pass PA Filter Bands:     | 160m / 80 m / 40 m / 30m / 20 m / 17m / 15m / 12m / 10m / 6 m                        |
++-------------------------------+--------------------------------------------------------------------------------------+
+|                               | (possibility to changed it to any range 1.8 - 50 MHz)                                |
++-------------------------------+--------------------------------------------------------------------------------------+
+| Emission Modes Types:         | A1A (CWU, CWL), J3E (USB, LSB), A3E (AM), F3E (FM), DIGITAL (DIGU, DIGL)             |
++-------------------------------+--------------------------------------------------------------------------------------+
+|                               | DIGITAL (DIGU, DIGL)                                                                 | 
++-------------------------------+--------------------------------------------------------------------------------------+
+| Harmonic Radiation:           | better than -45 dB                                                                   |
++-------------------------------+--------------------------------------------------------------------------------------+
+| 3rd-Order IMD:                | better than -35 dB below PEP @ 14.2 MHz 10 Watts PEP                                 |
++-------------------------------+--------------------------------------------------------------------------------------+
+| Cooling:                      | copper heat spreader                                                                 |
++-------------------------------+--------------------------------------------------------------------------------------+
 
 
 .. note::
@@ -86,7 +90,7 @@ Transmitter Specifications
 
 
 General Specifications
-----------------------    		 										
+----------------------
 
 +-----------------------------------------------+-------------------------------------------------------------------------------------+
 |Antenna Connector:                             | ANT1 and ANT2 available on SMA connectors Included one cable with SMA to SO-239 UHF |
@@ -173,7 +177,7 @@ Spectrum analyzer
 +-------------------------------+--------------------+
 | Dynamic Range			| -80dBm	     |
 +-------------------------------+--------------------+
-| Input noise level 		| < -119 dBm/Hz      |
+| Input noise level             | < -119 dBm/Hz      |
 +-------------------------------+--------------------+
 | Input range			| +/- 1V	     |
 +-------------------------------+--------------------+
@@ -189,7 +193,7 @@ Logic analyzer
 --------------
 
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
-| Input channels				| 8 												|
+| Input channels				| 8                                                                                             |
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Max. sample rate				| 125 MS/s											|	
 +-----------------------------------------------+-----------------------------------------------------------------------------------------------+
@@ -215,10 +219,10 @@ Logic analyzer
 
 .. note::
 
-	Acquired data is compressed therefore the size of data than can be captured depends on activity of signal on LA inputs. 			
+	Acquired data is compressed therefore the size of data than can be captured depends on activity of signal on LA inputs. 
 	For I2C, SPI & UART signals 1MS is typical sample depth.											
-	All instrumentation applications are WEB based and don’t require the installation of any native software. 					
-	Users can access them via a browser using their smartphone, tablet or a PC running any popular operating systems (MAC, Linux, Windows, 	Android and iOS).	
+	All instrumentation applications are WEB based and don’t require the installation of any native software.					
+	Users can access them via a browser using their smartphone, tablet or a PC running any popular operating systems (MAC, Linux, Windows, Android and iOS).	
 
 
 General Electrical specifications
@@ -233,24 +237,24 @@ General Electrical specifications
 Mechanical specifications
 #########################
 
-+---------------------------+---------------+
-| Height:					|  100 mm		|
-+---------------------------+---------------+
-| Width:					| 340 mm	    |
-+---------------------------+---------------+
-| Depth:					| 215 mm	    |
-+---------------------------+---------------+
-| Weight:					|	5 kg     	|
-+---------------------------+---------------+
-| Operating temperature:	| -10*C to +50*C|
-+---------------------------+---------------+
++---------------------------+----------------+
+| Height:                   |  100 mm        |
++---------------------------+----------------+
+| Width:                    | 340 mm         |
++---------------------------+----------------+
+| Depth:                    | 215 mm         |
++---------------------------+----------------+
+| Weight:                   | 5 kg           |
++---------------------------+----------------+
+| Operating temperature:    | -10*C to +50*C |
++---------------------------+----------------+
 
 
 
 HAMlab system architecture
 ##########################
 
-SDR block diagram r2
+SDR block diagram
 
 .. image :: hamlab_c25_block_diag.png
 
@@ -479,6 +483,8 @@ AUDIO
 Audio USB connector
 USB 2.0 Cable - A-Male to Mini-B must be used to connect HAMlab audio sound card with the PC in order to be able to use Phone, MIC and speaker connector for voice communication.
 
+.. note::
+	USB connector is only available on HAMlab 80-10 10W model. For new models audio codec is used / audio is transferred over ethernet.
 
 Speaker connector 
 1/8” TRS stereo connector can be used to connect stereo powered computer speakers.
