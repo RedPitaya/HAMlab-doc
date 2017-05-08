@@ -9,4 +9,4 @@ Quick start
    connect
    unlock
    newSD
-
+   update
