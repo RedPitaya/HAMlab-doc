@@ -240,61 +240,97 @@ Power SDR installation and SDR configuration
 
 Click here_ to download Power SDR installation package.
 
-1. Start the installation by double clicking on the Setup_PowerSDR_Charly_25_HAMlab_Edition.exe file.
+1. Start the installation by double clicking on the Setup_PowerSDR_STEMlab_HAMlab_Edition.exe file.
 
-	.. image :: HamLab_images/PowerSDRinstallation1.PNG
+	.. image :: ../appsFeatures/PowerSDRinstallation1.PNG
+		:align: center
 
 2. If you are asked for extended user access rights during the installation click Yes! Running installer with administration rights will work as well. 
 	
-	.. image :: HamLab_images/PowerSDRinstallation2.png
+	.. image :: ../appsFeatures/PowerSDRinstallation2.png
 		:scale: 70%
+   		:align: center
 		
 On Windows 10 you might get warning of Unknown Publisher you can procede with installation by clicking on "more info" and then "Run anyway".
  
-	.. image:: HamLab_images/PowerSDRinstallation3.PNG
+	.. image:: ../appsFeatures/PowerSDRinstallation3.PNG
 		:scale: 75 %
+   		:align: center
 	
-	.. image:: HamLab_images/PowerSDRinstallation4.PNG
+	.. image:: ../appsFeatures/PowerSDRinstallation4.PNG
 		:scale: 75 %
+   		:align: center
 	
 
 3. Follow the instructions of the setup routine and accept the license agreements if asked for.
 
+	.. image:: ../appsFeatures/Capture1.PNG
+		:scale: 75 %
+   		:align: center
 
-4. At the end of the installation you are asked if you want to run PowerSDR Charly 25 / Hamlab Edition software immediately, feel free to do so.
+	.. image:: ../appsFeatures/Capture2.PNG
+		:scale: 75 %
+   		:align: center
+		
+	.. image:: ../appsFeatures/Capture3.PNG
+		:scale: 75 %
+   		:align: center
 
+	.. image:: ../appsFeatures/Capture4.PNG
+		:scale: 75 %
+   		:align: center
 
-5. After starting the PowerSDR Charly 25 / Hamlab Edition software the first time you will be led through the PowerSDR Charly 25 / Hamlab Edition specific setup wizard which lets you configure the software to use it with your Hamlab.
+	.. image:: ../appsFeatures/Capture5.PNG
+		:scale: 75 %
+   		:align: center
 
-So please choose Hamlab as your radio model:
+	.. image:: ../appsFeatures/Capture6.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup01.jpg
+	.. image:: ../appsFeatures/Capture7.PNG
+		:scale: 75 %
+   		:align: center
 
-6. Confirm the RedPitaya as HPSDR hardware (currently there is no other type of hardware available for the Hamlab).
+	.. image:: ../appsFeatures/Capture8.PNG
+		:scale: 75 %
+		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup02.jpg
+4. At the end of the installation you are asked if you want to run PowerSDR software immediately, feel free to do so.
 
-7. Select the region where you are using your Hamlab, this is important due to the different frequency ranges your are allowed to transmit in the different countries all over the world:
+	.. image:: ../appsFeatures/Capture9.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup03.jpg
+5. PowerSDR software will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer. This is only done once, even after updating the software to a new version in the future:
 
-8. Your initial setup is completed:
+	.. image:: ../appsFeatures/Capture10.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup04.jpg
+6. After starting the PowerSDR software you will be led through the PowerSDR software specific setup wizard which lets you configure the software to use it with your STEMlab. Pick the HAMlab/STEMlab radio model.
 
-9.  After clicking the Finish button PowerSDR Charly 25 / HAMlab Edition will start with the calculation of the FFT wisdom file, **which will take a while** depending on the CPU power of your computer.
-This is only done once, even after updating the software to a new version in the future:
+	.. image:: ../appsFeatures/Capture11.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup05.jpg
+7. Select the region where you are using your STEMlab, this is important due to the different frequency ranges your are allowed to transmit in the different countries all over the world:
 
-10. When all calculations are done, PowerSDR Charly 25 / HAMlab Edition will come up with the main window:
+	.. image:: ../appsFeatures/Capture12.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: ../appsFeatures/powersdrsetup06.jpg
+8. Your initial setup is completed click finish.
 
-11. Click Power to connect Power SDR with HAMlab. On the screen the input singnal should appear.
+	.. image:: ../appsFeatures/Capture13.PNG
+		:scale: 75 %
+   		:align: center
 
-.. image :: HamLab_images/SDRconnectepower.PNG
+9. Click Power to connect Power SDR with STEMlab. On the screen the input singnal should appear.
 
+	.. image:: ../appsFeatures/Capture20.PNG
+		:scale: 75 %
+   		:align: center
 
 
 
