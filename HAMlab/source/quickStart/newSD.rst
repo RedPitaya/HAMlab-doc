@@ -8,7 +8,7 @@ Prepare SD card
     .. image:: microSDcard-RP.png
        :width: 10%
     
-    `Download <http://downloads.redpitaya.com/hamlab/hamlab_ubuntu_11-34-26_14-dec-2016.img.zip>`_
+    `Download <http://downloads.redpitaya.com/hamlab/hamlab_ubuntu_09-53-26_05-jul-2017.img.zip>`_
     
 2. Unzip
 
