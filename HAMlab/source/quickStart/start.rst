@@ -236,7 +236,7 @@ Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
 Power SDR installation and SDR configuration
 --------------------------------------------
 
-.. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_HAMlab_Edition.exe
+.. _here: http://downloads.redpitaya.com/hamlab/powersdr/Setup_PowerSDR_Charly_25_HAMlab_STEMlab_Edition.exe
 
 Click here_ to download Power SDR installation package.
 
