@@ -213,25 +213,12 @@ HAMlab application page should appear
 .. image:: hamlab/apps.png
 
 
-In order to use HAMlab in SDR mode You must run SDR HPSDR web application first. 
-
-.. image :: ../appsFeatures/hpsdr_icon.png
-   :alt: icon
-   :align: center
-   
-Click on the SDR icon in order to put HAMlab into SDR mode. While web application is running HAMlab will be in SDR mode and you can connect to it with PowerSDR software to use it as radio.
-   
-.. image :: ../appsFeatures/webapp.png   
-
 Congratulations, HAMlab is now ready for use, now let’s install Power SDR.
 
 .. note:: 
 
 	Exiting this SDR WEB application will close the connection to Power SDR.
 
-.. tip::
-	Optionaly you can connect MIDI controller to your PC. MIDI controller can be used to control radio software parameters like frequency with physical knobs.
-	
 
 Power SDR installation and SDR configuration
 --------------------------------------------
@@ -338,3 +325,7 @@ On Windows 10 you might get warning of Unknown Publisher you can procede with in
  
 	Power SDR software is described in :ref:`sdr` section.
 
+
+.. tip::
+	Optionaly you can connect MIDI controller to your PC. MIDI controller can be used to control radio software parameters like frequency with physical knobs.
+	
